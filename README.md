@@ -1,1 +1,1 @@
-# ry-yhteiset
+# RYTJ-soveltamisprofiili
