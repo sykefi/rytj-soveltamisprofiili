@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.8.5.1.1.11.1:1", "", "Customers", "EARoot/EA8/EA5/EA1/EA1/EA11/EA1/EA3056.html", "176.png", "798", "0", "", "Package diagram0","{86045E86-F512-4500-8133-232E5585BD77}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.11.1:2", "", "«FeatureType» Customer", "EARoot/EA8/EA5/EA1/EA1/EA11/EA1/EA3059.html", "5.png", "E1214", "0", "", "Class0","{13B8D7F2-C15E-4c3e-B442-0791143C123F}");

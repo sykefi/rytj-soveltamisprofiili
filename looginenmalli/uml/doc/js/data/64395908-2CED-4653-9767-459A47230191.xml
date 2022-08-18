@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.8.2.1.11.1", "1", "Formal UML Profile", "EARoot/EA8/EA2/EA1/EA11/EA1/EA969.html", "4.png", "", "", "{E3FFB2F7-E86B-4aac-B8D3-B0207116D87F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2.1.11.2", "1", "UML metamodel", "EARoot/EA8/EA2/EA1/EA11/EA2/EA986.html", "4.png", "", "", "{B8EC6C54-E6C1-410c-91ED-02064791063A}", "Package");

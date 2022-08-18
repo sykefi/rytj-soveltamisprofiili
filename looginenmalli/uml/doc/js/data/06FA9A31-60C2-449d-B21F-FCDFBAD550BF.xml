@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:1", "", "Figure 28 — Polyhedral surface", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1666.html", "175.png", "355", "0", "", "Logical diagram0","{EB987BF4-3AD4-410a-A2EF-9E32C8B96E8B}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:2", "", "Polygon Default Constructors", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1668.html", "175.png", "357", "0", "", "Logical diagram0","{6AB9892C-DB20-4b7d-8400-5A5915E7508A}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:4", "", "«datatype» PolygonData", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1673.html", "230.png", "E777", "0", "", "DataType0","{95D6EE61-A0A3-4b1d-B658-A296CDB3B4A1}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:5", "", "«datatype» PolyhedralSurfaceData", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1674.html", "230.png", "E778", "0", "", "DataType0","{FFE96A75-E8AF-4dcb-A068-8787DCE994B6}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:6", "", "«datatype» TriangleData", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1675.html", "230.png", "E779", "0", "", "DataType0","{C47D8286-04F1-4155-BFCD-D0CB406BB556}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:7", "", "TriangulatedSurfaceData", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1676.html", "230.png", "E780", "0", "", "DataType0","{AECC2779-A1EB-4f4c-9728-93864FF53FAF}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:8", "", "Polygon", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1677.html", "8.png", "E772", "0", "", "Interface0","{F96574B8-DAB1-48f7-9C1C-3AFAC64E3785}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:9", "", "PolyhedralSurface", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1678.html", "8.png", "E773", "0", "", "Interface0","{826A7C6F-87D8-40b3-81FF-C65C0A982590}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:10", "", "TIN", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1679.html", "8.png", "E774", "0", "", "Interface0","{170C63BF-FA11-458e-8C2F-5849307E5080}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:11", "", "Triangle", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1680.html", "8.png", "E775", "0", "", "Interface0","{3DA7B816-A5B8-4b13-A80F-7F1C9101905C}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:12", "", "TriangulatedSurface", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1681.html", "8.png", "E776", "0", "", "Interface0","{1DF36F5E-3E1D-496f-A069-1B1120E30830}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.2:3", "", "Spanning Surface ", "EARoot/EA8/EA3/EA4/EA4/EA2/EA1670.html", "175.png", "356", "E772", "", "Logical diagram0","{7E32D3D9-D0B3-49f4-BBCC-F70E263DE905}");

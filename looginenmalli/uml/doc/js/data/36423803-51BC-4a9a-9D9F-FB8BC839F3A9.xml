@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.8.6.1.2:1", "", "Relation to Geometry", "EARoot/EA8/EA6/EA1/EA2/EA3287.html", "175.png", "867", "0", "", "Logical diagram0","{3E166C15-F4D4-4e21-9BF8-07D8A8EAA0DC}");
+tocTab[tocTab.length] = new Array("0.8.6.1.2:2", "", "Coordinate Set and Metadata", "EARoot/EA8/EA6/EA1/EA2/EA3289.html", "175.png", "868", "0", "", "Logical diagram0","{5878AF5A-34AF-4b9f-B32C-A8E7071BAAE0}");
+tocTab[tocTab.length] = new Array("0.8.6.1.2:3", "", "", "EARoot/EA8/EA6/EA1/EA2/EA3294.html", "202.png", "E1300", "0", "", "Constraint0","{CC4BEAE4-95B1-4c0e-B4E7-A4E14E05B3C6}");
+tocTab[tocTab.length] = new Array("0.8.6.1.2:4", "", "«interface» CoordinateMetadata", "EARoot/EA8/EA6/EA1/EA2/EA3295.html", "5.png", "E1297", "0", "", "Class0","{43C5C492-6261-4781-91E3-A53A13A5B13F}");
+tocTab[tocTab.length] = new Array("0.8.6.1.2:5", "", "«interface» CoordinateSet", "EARoot/EA8/EA6/EA1/EA2/EA3296.html", "5.png", "E1298", "0", "", "Class0","{E20268F6-75F4-4dbc-9C2A-97F2DD934546}");
+tocTab[tocTab.length] = new Array("0.8.6.1.2:6", "", "«interface» DataEpoch", "EARoot/EA8/EA6/EA1/EA2/EA3298.html", "5.png", "E1299", "0", "", "Class0","{1A679575-C18B-490a-8882-4D077154103D}");
