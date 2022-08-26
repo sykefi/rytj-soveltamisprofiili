@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Systems::SphericalCS</title>
+<title>Coordinate Systems::AffineCS</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SphericalCS", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("AffineCS", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">Easy</td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{2E010297-2120-43f9-A50F-3531A27C808D}</td>
+			<td class="ObjectDetailsValue">{9D6E9E62-0D24-46b7-9FA5-DBEC4D9C7055}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3457.html">Coordinate Systems</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3467.html">CS CRS Associations</a>, <a href="EA3465.html">Coordinate Systems</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">three-dimensional coordinate system in Euclidean space with one distance measured from the origin and two angular coordinates&lt;br/&gt;Note: Not to be confused with an ellipsoidal coordinate system based on an ellipsoid &quot;degenerated&quot; into a sphere. A SphericalCS shall have three axis associations.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">two- or three-dimensional coordinate system in Euclidean space with straight axes that are not necessarily orthogonal&lt;br/&gt;Note: The number of associations shall equal the dimension of the coordinate system.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -114,8 +114,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4911" onclick="parent.toggleDiv('detailsDIVScenario4911','DetailsImageScenario4911')" />Details:
-						<div id="detailsDIVScenario4911" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4938" onclick="parent.toggleDiv('detailsDIVScenario4938','DetailsImageScenario4938')" />Details:
+						<div id="detailsDIVScenario4938" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Create a property type that requires that the instance is encoded inline (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -127,8 +127,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4912" onclick="parent.toggleDiv('detailsDIVScenario4912','DetailsImageScenario4912')" />Details:
-						<div id="detailsDIVScenario4912" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4939" onclick="parent.toggleDiv('detailsDIVScenario4939','DetailsImageScenario4939')" />Details:
+						<div id="detailsDIVScenario4939" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: Identifies the type as an object collection.<br /></div>
 
 						</div>
@@ -140,8 +140,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4913" onclick="parent.toggleDiv('detailsDIVScenario4913','DetailsImageScenario4913')" />Details:
-						<div id="detailsDIVScenario4913" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4940" onclick="parent.toggleDiv('detailsDIVScenario4940','DetailsImageScenario4940')" />Details:
+						<div id="detailsDIVScenario4940" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Surpress creation of a standard property type that supports inline or by-reference encoding (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -153,8 +153,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4914" onclick="parent.toggleDiv('detailsDIVScenario4914','DetailsImageScenario4914')" />Details:
-						<div id="detailsDIVScenario4914" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4941" onclick="parent.toggleDiv('detailsDIVScenario4941','DetailsImageScenario4941')" />Details:
+						<div id="detailsDIVScenario4941" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -165,8 +165,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4915" onclick="parent.toggleDiv('detailsDIVScenario4915','DetailsImageScenario4915')" />Details:
-						<div id="detailsDIVScenario4915" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4942" onclick="parent.toggleDiv('detailsDIVScenario4942','DetailsImageScenario4942')" />Details:
+						<div id="detailsDIVScenario4942" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007_INSPIRE_Extensions<br />Description: XML Schema encoding rule to apply<br /></div>
 
 						</div>
@@ -197,10 +197,17 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3462.html">«interface» CoordinateSystem</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3470.html">«interface» CoordinateSystem</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3472.html">«interface» CartesianCS</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

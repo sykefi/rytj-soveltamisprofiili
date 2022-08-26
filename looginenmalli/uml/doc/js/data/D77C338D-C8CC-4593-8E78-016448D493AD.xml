@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.8.2.1.6:1", "", "Figure 23 - Record types", "EARoot/EA8/EA2/EA1/EA6/EA832.html", "175.png", "152", "0", "", "Logical diagram0","{58DC5292-5745-415d-8AE7-B40CCC0E6DC4}");
-tocTab[tocTab.length] = new Array("0.8.2.1.6:2", "", "Field", "EARoot/EA8/EA2/EA1/EA6/EA835.html", "8.png", "E416", "0", "", "Interface0","{B50F35BE-A7A0-4a31-B14D-2E6B392AFC66}");
-tocTab[tocTab.length] = new Array("0.8.2.1.6:3", "", "FieldType", "EARoot/EA8/EA2/EA1/EA6/EA836.html", "8.png", "E417", "0", "", "Interface0","{9479D3DD-7692-4f44-B790-C07E07B8A96C}");
-tocTab[tocTab.length] = new Array("0.8.2.1.6:4", "", "Record", "EARoot/EA8/EA2/EA1/EA6/EA837.html", "8.png", "E418", "0", "", "Interface0","{D47F8DC9-2347-465f-BF99-CFDE49FD6628}");
-tocTab[tocTab.length] = new Array("0.8.2.1.6:5", "", "RecordType", "EARoot/EA8/EA2/EA1/EA6/EA838.html", "8.png", "E419", "0", "", "Interface0","{108E9479-A34A-4b66-AF24-75D6B563CD7A}");
+tocTab[tocTab.length] = new Array("0.8.2.1.6:1", "", "Figure 23 - Record types", "EARoot/EA8/EA2/EA1/EA6/EA840.html", "175.png", "152", "0", "", "Logical diagram0","{58DC5292-5745-415d-8AE7-B40CCC0E6DC4}");
+tocTab[tocTab.length] = new Array("0.8.2.1.6:2", "", "Field", "EARoot/EA8/EA2/EA1/EA6/EA843.html", "8.png", "E416", "0", "", "Interface0","{B50F35BE-A7A0-4a31-B14D-2E6B392AFC66}");
+tocTab[tocTab.length] = new Array("0.8.2.1.6:3", "", "FieldType", "EARoot/EA8/EA2/EA1/EA6/EA844.html", "8.png", "E417", "0", "", "Interface0","{9479D3DD-7692-4f44-B790-C07E07B8A96C}");
+tocTab[tocTab.length] = new Array("0.8.2.1.6:4", "", "Record", "EARoot/EA8/EA2/EA1/EA6/EA845.html", "8.png", "E418", "0", "", "Interface0","{D47F8DC9-2347-465f-BF99-CFDE49FD6628}");
+tocTab[tocTab.length] = new Array("0.8.2.1.6:5", "", "RecordType", "EARoot/EA8/EA2/EA1/EA6/EA846.html", "8.png", "E419", "0", "", "Interface0","{108E9479-A34A-4b66-AF24-75D6B563CD7A}");

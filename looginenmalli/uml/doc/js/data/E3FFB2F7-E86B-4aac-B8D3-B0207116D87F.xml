@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.8.2.1.11.1:1", "", "Main", "EARoot/EA8/EA2/EA1/EA11/EA1/EA967.html", "175.png", "165", "0", "", "Logical diagram0","{C45B6A83-1B4E-43d2-BCE8-9C456422A63F}");
-tocTab[tocTab.length] = new Array("0.8.2.1.11.1.1", "1", "«profile» ISO 19103 Formal UML profile", "EARoot/EA8/EA2/EA1/EA11/EA1/EA1/EA975.html", "4.png", "", "", "{A458C6E3-824B-49bc-A73E-8E3460E5FD38}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2.1.11.1:1", "", "Main", "EARoot/EA8/EA2/EA1/EA11/EA1/EA975.html", "175.png", "165", "0", "", "Logical diagram0","{C45B6A83-1B4E-43d2-BCE8-9C456422A63F}");
+tocTab[tocTab.length] = new Array("0.8.2.1.11.1.1", "1", "«profile» ISO 19103 Formal UML profile", "EARoot/EA8/EA2/EA1/EA11/EA1/EA1/EA983.html", "4.png", "", "", "{A458C6E3-824B-49bc-A73E-8E3460E5FD38}", "Package");

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Operations::OperationParameter</title>
+<title>Coordinate Operations::SingleOperation</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("OperationParameter", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SingleOperation", " : "))</script>  : Public abstract &lt;&lt;interface&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Easy</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DA807972-EB01-4c05-8DCD-52509947CC68}</td>
+			<td class="ObjectDetailsValue">{C03310C0-AEA0-4567-89AB-FE750EB844ED}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3373.html">Operations Part 2</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3379.html">Operations Part 1</a>, <a href="EA3381.html">Operations Part 2</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">definition of a parameter used by a coordinate operation method&lt;br/&gt;Note: Most parameter values are numeric, but other types of parameter values are possible.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">single (not concatenated) coordinate operation&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -112,23 +112,46 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3397.html">«interface» OperationParameterValue</a><br />
+						<a href="EA3403.html">«interface» GeneralParameterValue</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> parameter<br />
-						parameter which has this value
-
+						<strong>Name:</strong> coordOperation<br />
+						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> value<br />
-						&nbsp;	
+						<strong>Name:</strong> parameterValue<br />
+						parameter value or parameter value group used by this single operation	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink4685" onclick="parent.toggleDiv('detailsDIVLink4685','DetailsImageLink4685')" />Details:
-							<div id="detailsDIVLink4685" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink4689" onclick="parent.toggleDiv('detailsDIVLink4689','DetailsImageLink4689')" />Details:
+							<div id="detailsDIVLink4689" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA3398.html">«interface» OperationMethod</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> coordOperation<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> method<br />
+						algorithm or procedure used by this single operation
+	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink4690" onclick="parent.toggleDiv('detailsDIVLink4690','DetailsImageLink4690')" />Details:
+							<div id="detailsDIVLink4690" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -149,8 +172,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4686" onclick="parent.toggleDiv('detailsDIVScenario4686','DetailsImageScenario4686')" />Details:
-						<div id="detailsDIVScenario4686" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4691" onclick="parent.toggleDiv('detailsDIVScenario4691','DetailsImageScenario4691')" />Details:
+						<div id="detailsDIVScenario4691" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Create a property type that requires that the instance is encoded inline (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -162,8 +185,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4687" onclick="parent.toggleDiv('detailsDIVScenario4687','DetailsImageScenario4687')" />Details:
-						<div id="detailsDIVScenario4687" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4692" onclick="parent.toggleDiv('detailsDIVScenario4692','DetailsImageScenario4692')" />Details:
+						<div id="detailsDIVScenario4692" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: Identifies the type as an object collection.<br /></div>
 
 						</div>
@@ -175,8 +198,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4688" onclick="parent.toggleDiv('detailsDIVScenario4688','DetailsImageScenario4688')" />Details:
-						<div id="detailsDIVScenario4688" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4693" onclick="parent.toggleDiv('detailsDIVScenario4693','DetailsImageScenario4693')" />Details:
+						<div id="detailsDIVScenario4693" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Surpress creation of a standard property type that supports inline or by-reference encoding (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -188,8 +211,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4689" onclick="parent.toggleDiv('detailsDIVScenario4689','DetailsImageScenario4689')" />Details:
-						<div id="detailsDIVScenario4689" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4694" onclick="parent.toggleDiv('detailsDIVScenario4694','DetailsImageScenario4694')" />Details:
+						<div id="detailsDIVScenario4694" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -200,8 +223,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4690" onclick="parent.toggleDiv('detailsDIVScenario4690','DetailsImageScenario4690')" />Details:
-						<div id="detailsDIVScenario4690" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4695" onclick="parent.toggleDiv('detailsDIVScenario4695','DetailsImageScenario4695')" />Details:
+						<div id="detailsDIVScenario4695" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007_INSPIRE_Extensions<br />Description: XML Schema encoding rule to apply<br /></div>
 
 						</div>
@@ -232,10 +255,31 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3392.html">«interface» GeneralOperationParameter</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3391.html">«interface» CoordinateOperation</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3397.html">«interface» PointMotionOperation</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3395.html">«interface» Transformation</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3396.html">«interface» Conversion</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

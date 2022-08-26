@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Datums::DefiningParameter</title>
+<title>Datums::DynamicGeodeticReferenceFrame</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DefiningParameter", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DynamicGeodeticReferenceFrame", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{AE5B2A38-5824-467b-8003-95540E799300}</td>
+			<td class="ObjectDetailsValue">{03DB27DB-361A-4132-8D7B-E2D2F3D4846A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1/EA3410.html">Identified Object with subtypes</a>, <a href="EA3484.html">Datum</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3492.html">Datum</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">parameter value, an ordered sequence of values, or a reference to a file of parameter values that define a paramtric datum&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">geodetic reference frame in which some of the parameters describe time evolution of defining station coordinates&lt;br/&gt;Example: defining station coordinates having linear velocities to account for crustal motion.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -109,43 +109,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../EA6/EA3531.html">ParameterValue</a></i><br /><strong>&nbsp;&nbsp;parameterValue</strong>
+					<i>Public <a href="../../../EA2/EA1/EA9/EA875.html">Measure</a></i><br /><strong>&nbsp;&nbsp;frameReferenceEpoch</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes5073')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes5073" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes5104')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes5104" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes5073_00" style="display: none;">
+						<tr id="DetailsImageAttributes5104_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_01" style="display: none;">
+						<tr id="DetailsImageAttributes5104_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_02" style="display: none;">
+						<tr id="DetailsImageAttributes5104_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_03" style="display: none;">
+						<tr id="DetailsImageAttributes5104_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_04" style="display: none;">
+						<tr id="DetailsImageAttributes5104_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_05" style="display: none;">
+						<tr id="DetailsImageAttributes5104_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes5073_06" style="display: none;">
+						<tr id="DetailsImageAttributes5104_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes5073_07" style="display: none;">
+							<tr id="DetailsImageAttributes5104_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -158,7 +158,7 @@ function nameClassifier(name, separator)
 			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
 		</td>
 		<td>
-			value of the datum-defining parameter&lt;br/&gt;
+			epoch to which the coordinates of stations defining the dynamic geodetic reference frame are referenced, expressed as a decimal year in the Gregorian calendar&lt;br/&gt;Example: 2016,47.&lt;br/&gt;
 		</td>
 	</tr>
 </table></div>
@@ -191,7 +191,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA3417.html">«interface» IdentifiedObject</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3498.html">«interface» GeodeticReferenceFrame</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.8.3.5.2.1:1", "", "Context Diagram: TP_Complex", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2535.html", "175.png", "672", "0", "", "Logical diagram0","{4111547E-9AD6-4061-8D88-3312761DA6AF}");
-tocTab[tocTab.length] = new Array("0.8.3.5.2.1:2", "", "Fig 46: Complex View", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2537.html", "175.png", "671", "0", "", "Logical diagram0","{D72373B2-612B-487f-93C3-164BB4084E2E}");
-tocTab[tocTab.length] = new Array("0.8.3.5.2.1:3", "", "«type» TP_Complex", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2541.html", "5.png", "E990", "0", "", "Class0","{9F0AF974-EE65-434d-AAC0-A6BD1A0AF46B}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.1:1", "", "Context Diagram: TP_Complex", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2543.html", "175.png", "672", "0", "", "Logical diagram0","{4111547E-9AD6-4061-8D88-3312761DA6AF}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.1:2", "", "Fig 46: Complex View", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2545.html", "175.png", "671", "0", "", "Logical diagram0","{D72373B2-612B-487f-93C3-164BB4084E2E}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.1:3", "", "«type» TP_Complex", "EARoot/EA8/EA3/EA5/EA2/EA1/EA2549.html", "5.png", "E990", "0", "", "Class0","{9F0AF974-EE65-434d-AAC0-A6BD1A0AF46B}");

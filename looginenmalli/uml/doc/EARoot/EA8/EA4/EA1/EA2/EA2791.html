@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Temporal Reference System::TM_ReferenceSystem</title>
+<title>Temporal Reference System::TM_Coordinate</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TM_ReferenceSystem", " : "))</script>  : Public   Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TM_Coordinate", " : "))</script>  : Public   Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Easy</td>
+			<td class="ObjectDetailsValue">Medium</td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,18 +87,18 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C85B8012-2FBD-469c-A089-3CD2226E60B6}</td>
+			<td class="ObjectDetailsValue">{C27F6A5D-F125-4093-93F8-DE66EB4A5E86}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2772.html">Reference System</a>, <a href="EA2774.html">Temporal Position</a>, <a href="EA2768.html">Main</a>, <a href="EA2762.html">Fig7: Temporal reference systems</a>, <a href="EA2766.html">Fig9: Temporal coordinate system</a>, <a href="EA2754.html">Context Diagram: TM_ReferenceSystem</a>, <a href="EA2750.html">Context Diagram: TM_OrdinalReferenceSystem</a>, <a href="EA2730.html">Context Diagram: TM_Calendar</a>, <a href="EA2740.html">Context Diagram: TM_CoordinateSystem</a>, <a href="EA2734.html">Context Diagram: TM_Clock</a>, <a href="EA2756.html">Context Diagram: TM_TemporalPosition</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2782.html">Temporal Position</a>, <a href="EA2776.html">Main</a>, <a href="EA2764.html">Context Diagram: TM_TemporalPosition</a>, <a href="EA2746.html">Context Diagram: TM_Coordinate</a>, <a href="EA2734.html">Context Diagram: JulianDate</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">The value of a coordinate in a temporal coordinate system.&#160;&#160;&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -110,91 +110,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public EX_Extent</i><br /><strong>&nbsp;&nbsp;domainOfValidity</strong>
+					<i>Public <a href="../../../EA2/EA2/EA1/EA3/EA4/EA1341.html">Number</a></i><br /><strong>&nbsp;&nbsp;coordinateValue</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3610')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3610" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3642')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3642" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes3610_00" style="display: none;">
+						<tr id="DetailsImageAttributes3642_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes3610_01" style="display: none;">
+						<tr id="DetailsImageAttributes3642_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes3610_02" style="display: none;">
+						<tr id="DetailsImageAttributes3642_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes3610_03" style="display: none;">
+						<tr id="DetailsImageAttributes3642_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes3610_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td>Range:0 to *</td>
-						</tr>
-						<tr id="DetailsImageAttributes3610_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes3610_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes3610_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public RS_Identifier</i><br /><strong>&nbsp;&nbsp;name</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3611')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3611" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes3611_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3611_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3611_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3611_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3611_04" style="display: none;">
+						<tr id="DetailsImageAttributes3642_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes3611_05" style="display: none;">
+						<tr id="DetailsImageAttributes3642_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes3611_06" style="display: none;">
+						<tr id="DetailsImageAttributes3642_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes3611_07" style="display: none;">
+							<tr id="DetailsImageAttributes3642_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -207,40 +159,6 @@ function nameClassifier(name, separator)
 			</tr>
 	</table>
 </div>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2792.html">TM_TemporalPosition</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> frame<br />
-						The temporal reference frame within which a temporal position is expressed.  
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> position<br />
-						The temporal position of a TM_Instant within a TM_ReferenceSystem.  	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3612" onclick="parent.toggleDiv('detailsDIVLink3612','DetailsImageLink3612')" />Details:
-							<div id="detailsDIVLink3612" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">This association links a temporal position to the TM_ReferenceSystem within which it is measured.&#160;&#160;&lt;br/&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -253,176 +171,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3613" onclick="parent.toggleDiv('detailsDIVScenario3613','DetailsImageScenario3613')" />Details:
-						<div id="detailsDIVScenario3613" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:ConstructorIs</td>
-				<td width="50%" class="TableRow" valign="top">public</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3614" onclick="parent.toggleDiv('detailsDIVScenario3614','DetailsImageScenario3614')" />Details:
-						<div id="detailsDIVScenario3614" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:Final</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3615" onclick="parent.toggleDiv('detailsDIVScenario3615','DetailsImageScenario3615')" />Details:
-						<div id="detailsDIVScenario3615" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateDefaultConstructor</td>
-				<td width="50%" class="TableRow" valign="top">True</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3616" onclick="parent.toggleDiv('detailsDIVScenario3616','DetailsImageScenario3616')" />Details:
-						<div id="detailsDIVScenario3616" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateFinalizer</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3617" onclick="parent.toggleDiv('detailsDIVScenario3617','DetailsImageScenario3617')" />Details:
-						<div id="detailsDIVScenario3617" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateInstanceInitializer</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3618" onclick="parent.toggleDiv('detailsDIVScenario3618','DetailsImageScenario3618')" />Details:
-						<div id="detailsDIVScenario3618" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateStaticInitializer</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3619" onclick="parent.toggleDiv('detailsDIVScenario3619','DetailsImageScenario3619')" />Details:
-						<div id="detailsDIVScenario3619" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Oracle8:CollectionOfREFS</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3620" onclick="parent.toggleDiv('detailsDIVScenario3620','DetailsImageScenario3620')" />Details:
-						<div id="detailsDIVScenario3620" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:CollectionClass</td>
-				<td width="50%" class="TableRow" valign="top">Collection</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3621" onclick="parent.toggleDiv('detailsDIVScenario3621','DetailsImageScenario3621')" />Details:
-						<div id="detailsDIVScenario3621" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:Creatable</td>
-				<td width="50%" class="TableRow" valign="top">(221)</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3622" onclick="parent.toggleDiv('detailsDIVScenario3622','DetailsImageScenario3622')" />Details:
-						<div id="detailsDIVScenario3622" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:GenerateInitialization</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3623" onclick="parent.toggleDiv('detailsDIVScenario3623','DetailsImageScenario3623')" />Details:
-						<div id="detailsDIVScenario3623" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:GenerateTermination</td>
-				<td width="50%" class="TableRow" valign="top">False</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3624" onclick="parent.toggleDiv('detailsDIVScenario3624','DetailsImageScenario3624')" />Details:
-						<div id="detailsDIVScenario3624" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:OptionBase</td>
-				<td width="50%" class="TableRow" valign="top">(none)</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3625" onclick="parent.toggleDiv('detailsDIVScenario3625','DetailsImageScenario3625')" />Details:
-						<div id="detailsDIVScenario3625" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:OptionCompare</td>
-				<td width="50%" class="TableRow" valign="top">(none)</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3626" onclick="parent.toggleDiv('detailsDIVScenario3626','DetailsImageScenario3626')" />Details:
-						<div id="detailsDIVScenario3626" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">RationalRose$Visual Basic:OptionExplicit</td>
-				<td width="50%" class="TableRow" valign="top">True</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3627" onclick="parent.toggleDiv('detailsDIVScenario3627','DetailsImageScenario3627')" />Details:
-						<div id="detailsDIVScenario3627" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3643" onclick="parent.toggleDiv('detailsDIVScenario3643','DetailsImageScenario3643')" />Details:
+						<div id="detailsDIVScenario3643" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -452,59 +202,17 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA6/EA2/EA3/EA3455.html">«interface» TemporalCRS</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA6/EA3/EA7/EA3771.html">«type» TM_TemporalCRS</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2784.html">TM_CoordinateSystem</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA6/EA1/EA3/EA3322.html">«interface» TemporalCRS</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2789.html">TM_OrdinalReferenceSystem</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2781.html">TM_Clock</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2779.html">TM_Calendar</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA6/EA3/EA6/EA3767.html">RS_ReferenceSystem</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2800.html">TM_TemporalPosition</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2785.html">JulianDate</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

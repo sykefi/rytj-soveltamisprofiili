@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Geometry::ProductCurve</title>
+<title>Geometry::Query2D</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ProductCurve", " : "))</script>  : Public abstract  Interface</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Query2D", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E621BC26-78F6-4844-AA0F-15B224064023}</td>
+			<td class="ObjectDetailsValue">{8DDA2DC7-5C75-4727-8184-210666682C5A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1516.html">Figure 16 — Curve,  ProductCurve and OffsetCurve</a>, <a href="../EA3/EA1566.html">Figure 22 — Curve Interfaces</a>, <a href="../EA14/EA1974.html">Fig 02.02: Geometry Class Hieararchy</a>, <a href="../EA14/EA1914.html">Requirements Class Geometry</a>, <a href="../EA14/EA1902.html">Product Curve and Projected Curve</a>, <a href="../EA14/EA3/EA2/EA2087.html">Product Curves</a>, <a href="../EA14/EA3/EA2/EA2085.html">SF Curve Product Curves</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1516.html">Figure 12 — Geometry Root Extensions</a>, <a href="../EA14/EA1990.html">Fig 02.04: Geometry Interfaces</a>, <a href="../EA14/EA1978.html">Context Diagram: Query2D</a>, <a href="../EA14/EA1988.html">Context Diagram: Query3D</a>, <a href="../EA14/EA1922.html">Requirements Class Geometry</a></td>
 		</tr>
 	</table>
 	
@@ -99,8 +99,6 @@ function nameClassifier(name, separator)
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -111,91 +109,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public Interval</i><br /><strong>&nbsp;&nbsp;parameterRange</strong>
+					<i>Public BoundaryType</i><br /><strong>&nbsp;&nbsp;boundaryType</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2377')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2377" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2332')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2332" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes2377_00" style="display: none;">
+						<tr id="DetailsImageAttributes2332_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_01" style="display: none;">
+						<tr id="DetailsImageAttributes2332_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_02" style="display: none;">
+						<tr id="DetailsImageAttributes2332_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_03" style="display: none;">
+						<tr id="DetailsImageAttributes2332_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_04" style="display: none;">
+						<tr id="DetailsImageAttributes2332_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_05" style="display: none;">
+						<tr id="DetailsImageAttributes2332_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes2377_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>True</td>
-						</tr>
-							<tr id="DetailsImageAttributes2377_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public <a href="../EA1/EA3/EA1488.html">Projection</a></i><br /><strong>&nbsp;&nbsp;projection</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2378')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2378" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes2378_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes2378_06" style="display: none;">
+						<tr id="DetailsImageAttributes2332_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes2378_07" style="display: none;">
+							<tr id="DetailsImageAttributes2332_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -216,33 +166,716 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>ProductCurve</strong>(					<a href="#" onclick="parent.toggleData('param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}" border="0" />data: <a href="EA1559.html">ProductCurveData</a></a>, 
+					<strong>buffer</strong>(					<a href="#" onclick="parent.toggleData('param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}" border="0" />distance: Distance</a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}00" style="display: none;">
+						<tr id="param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}01" style="display: none;">
+						<tr id="param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}02" style="display: none;">
+						<tr id="param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{AE6BD753-87C5-467b-AE8B-62DA6E9007CE}03" style="display: none;">
+						<tr id="param{0E37CDCC-EAE4-4452-B189-6E154E2DD6DE}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):
+):<a href="EA1541.html">Geometry</a>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2379" onclick="parent.toggleDiv('detailsDIVOperations2379','DetailsImageOperations2379')" />Details:
-						<div id="detailsDIVOperations2379" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2333" onclick="parent.toggleDiv('detailsDIVOperations2333','DetailsImageOperations2333')" />Details:
+						<div id="detailsDIVOperations2333" class="DetailsDiv" >
 					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>contains</strong>(					<a href="#" onclick="parent.toggleData('param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}" border="0" />another: <a href="EA1541.html">Geometry</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{F34F98E7-3836-4014-A9E6-B7D79A3438C2}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2334" onclick="parent.toggleDiv('detailsDIVOperations2334','DetailsImageOperations2334')" />Details:
+						<div id="detailsDIVOperations2334" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>crosses</strong>(					<a href="#" onclick="parent.toggleData('param{A19A8D88-84D8-4cb8-9040-902424D66633}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{A19A8D88-84D8-4cb8-9040-902424D66633}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A19A8D88-84D8-4cb8-9040-902424D66633}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A19A8D88-84D8-4cb8-9040-902424D66633}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A19A8D88-84D8-4cb8-9040-902424D66633}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A19A8D88-84D8-4cb8-9040-902424D66633}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2335" onclick="parent.toggleDiv('detailsDIVOperations2335','DetailsImageOperations2335')" />Details:
+						<div id="detailsDIVOperations2335" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>difference</strong>(					<a href="#" onclick="parent.toggleData('param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B7EF1FC6-E882-4a92-ADE1-5E24E5D44ECF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA1541.html">Geometry</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2336" onclick="parent.toggleDiv('detailsDIVOperations2336','DetailsImageOperations2336')" />Details:
+						<div id="detailsDIVOperations2336" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;set&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>disjoint</strong>(					<a href="#" onclick="parent.toggleData('param{762D9690-C2A7-4e97-9E38-E86F27C16030}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{762D9690-C2A7-4e97-9E38-E86F27C16030}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{762D9690-C2A7-4e97-9E38-E86F27C16030}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{762D9690-C2A7-4e97-9E38-E86F27C16030}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{762D9690-C2A7-4e97-9E38-E86F27C16030}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{762D9690-C2A7-4e97-9E38-E86F27C16030}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2337" onclick="parent.toggleDiv('detailsDIVOperations2337','DetailsImageOperations2337')" />Details:
+						<div id="detailsDIVOperations2337" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>distance</strong>(					<a href="#" onclick="parent.toggleData('param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}" border="0" />another: <a href="EA1541.html">Geometry</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0B56DE63-EFC9-473e-AF1E-BE76C302B009}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Distance
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2338" onclick="parent.toggleDiv('detailsDIVOperations2338','DetailsImageOperations2338')" />Details:
+						<div id="detailsDIVOperations2338" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>equals</strong>(					<a href="#" onclick="parent.toggleData('param{42FD1799-8857-4ad7-A3C2-628C27476C95}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{42FD1799-8857-4ad7-A3C2-628C27476C95}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{42FD1799-8857-4ad7-A3C2-628C27476C95}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{42FD1799-8857-4ad7-A3C2-628C27476C95}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{42FD1799-8857-4ad7-A3C2-628C27476C95}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{42FD1799-8857-4ad7-A3C2-628C27476C95}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2339" onclick="parent.toggleDiv('detailsDIVOperations2339','DetailsImageOperations2339')" />Details:
+						<div id="detailsDIVOperations2339" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>intersection</strong>(					<a href="#" onclick="parent.toggleData('param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{901AB941-DC5E-4bbe-8C34-FC3AACCE0DEE}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA1541.html">Geometry</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2340" onclick="parent.toggleDiv('detailsDIVOperations2340','DetailsImageOperations2340')" />Details:
+						<div id="detailsDIVOperations2340" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;set&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>intersects</strong>(					<a href="#" onclick="parent.toggleData('param{DF05806C-019B-4594-8CB0-C64A7056B3F8}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{DF05806C-019B-4594-8CB0-C64A7056B3F8}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{DF05806C-019B-4594-8CB0-C64A7056B3F8}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DF05806C-019B-4594-8CB0-C64A7056B3F8}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{DF05806C-019B-4594-8CB0-C64A7056B3F8}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{DF05806C-019B-4594-8CB0-C64A7056B3F8}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2341" onclick="parent.toggleDiv('detailsDIVOperations2341','DetailsImageOperations2341')" />Details:
+						<div id="detailsDIVOperations2341" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>overlaps</strong>(					<a href="#" onclick="parent.toggleData('param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{797E68B2-925A-4024-BED4-FB4DEFB90CC8}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2342" onclick="parent.toggleDiv('detailsDIVOperations2342','DetailsImageOperations2342')" />Details:
+						<div id="detailsDIVOperations2342" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>relate</strong>(					<a href="#" onclick="parent.toggleData('param{43770296-CA36-4d0d-B0EF-43869C521422}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{43770296-CA36-4d0d-B0EF-43869C521422}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{43770296-CA36-4d0d-B0EF-43869C521422}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{43770296-CA36-4d0d-B0EF-43869C521422}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{43770296-CA36-4d0d-B0EF-43869C521422}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{43770296-CA36-4d0d-B0EF-43869C521422}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}" border="0" />matrixRows: CharacterString</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{BD37BED4-A19F-4be7-802C-34772A9B1A1E}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2343" onclick="parent.toggleDiv('detailsDIVOperations2343','DetailsImageOperations2343')" />Details:
+						<div id="detailsDIVOperations2343" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;reference&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>symDifference</strong>(					<a href="#" onclick="parent.toggleData('param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{074CB7EF-E7A9-4aea-B332-A38A9FCE6D31}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA1541.html">Geometry</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2344" onclick="parent.toggleDiv('detailsDIVOperations2344','DetailsImageOperations2344')" />Details:
+						<div id="detailsDIVOperations2344" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;set&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>touches</strong>(					<a href="#" onclick="parent.toggleData('param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2FCB1A7E-146E-4dd6-BFDF-FAF56977EFB4}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2345" onclick="parent.toggleDiv('detailsDIVOperations2345','DetailsImageOperations2345')" />Details:
+						<div id="detailsDIVOperations2345" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>union</strong>(					<a href="#" onclick="parent.toggleData('param{988619D2-4F86-4e17-8AFD-92EF55E71B27}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{988619D2-4F86-4e17-8AFD-92EF55E71B27}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{988619D2-4F86-4e17-8AFD-92EF55E71B27}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{988619D2-4F86-4e17-8AFD-92EF55E71B27}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{988619D2-4F86-4e17-8AFD-92EF55E71B27}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{988619D2-4F86-4e17-8AFD-92EF55E71B27}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Geometry
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2346" onclick="parent.toggleDiv('detailsDIVOperations2346','DetailsImageOperations2346')" />Details:
+						<div id="detailsDIVOperations2346" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;set&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>within</strong>(					<a href="#" onclick="parent.toggleData('param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B76FE7FD-A31A-48b4-8155-CB5A96751C78}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2347" onclick="parent.toggleDiv('detailsDIVOperations2347','DetailsImageOperations2347')" />Details:
+						<div id="detailsDIVOperations2347" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>withinDistance</strong>(					<a href="#" onclick="parent.toggleData('param{2080E754-9A3B-4cad-AECF-B1638A520FD0}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{2080E754-9A3B-4cad-AECF-B1638A520FD0}" border="0" />another: Geometry</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2080E754-9A3B-4cad-AECF-B1638A520FD0}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2080E754-9A3B-4cad-AECF-B1638A520FD0}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{2080E754-9A3B-4cad-AECF-B1638A520FD0}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2080E754-9A3B-4cad-AECF-B1638A520FD0}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+					<a href="#" onclick="parent.toggleData('param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}" border="0" />distance: Distance</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{63F30671-89D5-41e5-9207-0A58B7F7A5DF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2348" onclick="parent.toggleDiv('detailsDIVOperations2348','DetailsImageOperations2348')" />Details:
+						<div id="detailsDIVOperations2348" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;query&gt;&gt; </i>
 					<table>
 						<tr>
 							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
@@ -258,78 +891,7 @@ function nameClassifier(name, separator)
 			</tr>
 
 		</table>
-</div>		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA1541.html">Curve</a><br />
-						Interface &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> element<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> productCurve<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2380" onclick="parent.toggleDiv('detailsDIVLink2380','DetailsImageLink2380')" />Details:
-							<div id="detailsDIVLink2380" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="ConstraintsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">coordinateSystem[k]=projectionCurve[k].coordinateSystem</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints2381" onclick="parent.toggleDiv('detailsDIVConstraints2381','DetailsImageConstraints2381')" />Details:
-							<div id="detailsDIVConstraints2381" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">productCurve,knot[]=projectionCurve.knot[]</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints2382" onclick="parent.toggleDiv('detailsDIVConstraints2382','DetailsImageConstraints2382')" />Details:
-							<div id="detailsDIVConstraints2382" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -352,21 +914,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1541.html">Curve</a></td>
-					<td width="10%" class="TableRow" valign="top">Interface</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1541.html">Curve</a></td>
-					<td width="10%" class="TableRow" valign="top">Interface</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1532.html">Collection</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1541.html">Geometry</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

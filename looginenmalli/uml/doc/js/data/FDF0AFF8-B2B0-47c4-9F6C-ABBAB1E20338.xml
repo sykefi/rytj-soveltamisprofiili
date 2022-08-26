@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.8.2.1.10.1.5.1", "1", "Coordinate Reference Systems", "EARoot/EA8/EA2/EA1/EA10/EA1/EA5/EA1/EA927.html", "4.png", "", "", "{6E425924-964E-4fbb-A07E-1D848F485C71}", "Package");
-tocTab[tocTab.length] = new Array("0.8.2.1.10.1.5.2", "1", "Reference system information", "EARoot/EA8/EA2/EA1/EA10/EA1/EA5/EA2/EA931.html", "4.png", "", "", "{ECE01F09-690E-43a5-8A80-55AC7C14A059}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2.1.10.1.5.1", "1", "Coordinate Reference Systems", "EARoot/EA8/EA2/EA1/EA10/EA1/EA5/EA1/EA935.html", "4.png", "", "", "{6E425924-964E-4fbb-A07E-1D848F485C71}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2.1.10.1.5.2", "1", "Reference system information", "EARoot/EA8/EA2/EA1/EA10/EA1/EA5/EA2/EA939.html", "4.png", "", "", "{ECE01F09-690E-43a5-8A80-55AC7C14A059}", "Package");

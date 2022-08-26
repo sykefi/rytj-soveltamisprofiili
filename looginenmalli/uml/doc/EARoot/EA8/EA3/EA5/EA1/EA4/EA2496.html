@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Geometric primitive::GM_SurfaceBoundary</title>
+<title>Geometric primitive::GM_Point</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_SurfaceBoundary", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_Point", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,23 +87,229 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3005EBD2-8173-4b3a-87F6-BF64D950976E}</td>
+			<td class="ObjectDetailsValue">{0700BF66-938E-40ad-B9EE-44B0A80987B6}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1/EA2247.html">Context Diagram: GM_Polygon</a>, <a href="EA2465.html">Fig 07: Geometry Boundary Data Types</a>, <a href="EA2459.html">Context Diagram: GM_SurfaceBoundary</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA2179.html">Fig 05: Geometry basic classes </a>, <a href="../EA1/EA2277.html">Fig 14: Direct Position </a>, <a href="../EA1/EA2253.html">Context Diagram: GM_PointRef</a>, <a href="../EA3/EA2414.html">Fig 26: Composite</a>, <a href="../EA3/EA2416.html">Fig 27: Composite Point View</a>, <a href="../EA3/EA2406.html">Context Diagram: GM_CompositePoint</a>, <a href="EA2475.html">Fig 08: GM_Primitive</a>, <a href="EA2477.html">Fig 09: GM_Point</a>, <a href="EA2473.html">Fig 07: Geometry Boundary Data Types</a>, <a href="EA2451.html">Context Diagram: GM_Point</a>, <a href="EA2439.html">Context Diagram: GM_CurveBoundary</a>, <a href="../EA5/EA2513.html">Geometry Root</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">The boundary of GM_Surfaces shall be represented as GM_SurfaceBoundary.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">GM_Point (Figure 9) is the basic data type for a geometric object consisting of one and only one point. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Attribute</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public <a href="../EA1/EA2325.html">DirectPosition</a></i><br /><strong>&nbsp;&nbsp;position</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3308')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3308" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes3308_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes3308_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>False</td>
+						</tr>
+							<tr id="DetailsImageAttributes3308_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The attribute &quot;position&quot; shall be the DirectPosition of this GM_Point.&lt;br/&gt;GM_Point::position [1] : DirectPosition&lt;br/&gt;NOTE In most cases, the state of a GM_Point is fully determined by its position attribute.&#160;&#160;The only exception to this is if the GM_Point has been subclassed to provide additional non-geometric information such as symbology.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>
+	</table>
+</div>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>bearing</strong>(					<a href="#" onclick="parent.toggleData('param{937750AE-8804-482d-BC3B-85D3596B489B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{937750AE-8804-482d-BC3B-85D3596B489B}" border="0" />toPoint: <a href="../EA1/EA2362.html">GM_Position</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{937750AE-8804-482d-BC3B-85D3596B489B}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{937750AE-8804-482d-BC3B-85D3596B489B}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{937750AE-8804-482d-BC3B-85D3596B489B}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{937750AE-8804-482d-BC3B-85D3596B489B}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA2488.html">Bearing</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3309" onclick="parent.toggleDiv('detailsDIVOperations3309','DetailsImageOperations3309')" />Details:
+						<div id="detailsDIVOperations3309" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Returns the vector bearing of the second point with respect to the first.&#160;&#160;So. P1.Bearing(P2) is a unit vector based at P1 pointing towards P2.&lt;br/&gt;The operation &quot;bearing&quot; shall return the bearing of the tangent (at this GM_Point) to the curve between this GM_Point and a passed DirectPosition.&lt;br/&gt;GM_Point::bearing(point : DirectPosition) : Vector&lt;br/&gt;The choice of the curve type for defining the bearing is dependent on the CRS in which this GM_Point is defined. For example, in Mercator Projections in its most common usage, the curve is the rhumb line. In a 3D, geocentric coordinate system, the curve may be the geodesic joining the two points along the surface of the geoid in use. Implementation supporting this function shall specify the nature of the curve to be used.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>boundary</strong>():<a href="../../../../EA2/EA2/EA1/EA2/EA2/EA1209.html">NULL</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3310" onclick="parent.toggleDiv('detailsDIVOperations3310','DetailsImageOperations3310')" />Details:
+						<div id="detailsDIVOperations3310" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The operation &quot;GM_Point::boundary&quot; is a specialization of the boundary operation at GM_Object, and shall return an empty set.&lt;br/&gt;GM_Point::boundary() : NULL&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>GM_Point</strong>(					<a href="#" onclick="parent.toggleData('param{493781F9-6216-4f95-86ED-154797FCB8A6}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{493781F9-6216-4f95-86ED-154797FCB8A6}" border="0" />position: <a href="../EA1/EA2362.html">GM_Position</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{493781F9-6216-4f95-86ED-154797FCB8A6}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{493781F9-6216-4f95-86ED-154797FCB8A6}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{493781F9-6216-4f95-86ED-154797FCB8A6}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{493781F9-6216-4f95-86ED-154797FCB8A6}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA2496.html">GM_Point</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3311" onclick="parent.toggleDiv('detailsDIVOperations3311','DetailsImageOperations3311')" />Details:
+						<div id="detailsDIVOperations3311" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="40%" class="TableHeading">Element</td>
@@ -112,7 +318,40 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2491.html">«type» GM_Ring</a><br />
+						<a href="../EA3/EA2432.html">«type» GM_CompositePoint</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> generator<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> composite<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3312" onclick="parent.toggleDiv('detailsDIVLink3312','DetailsImageLink3312')" />Details:
+							<div id="detailsDIVLink3312" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../EA5/EA1/EA1/EA10/EA3035.html">«FeatureType» Pole</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -120,14 +359,14 @@ function nameClassifier(name, separator)
 						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> exterior<br />
+						<strong>Name:</strong> geometry<br />
 						&nbsp;	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3286" onclick="parent.toggleDiv('detailsDIVLink3286','DetailsImageLink3286')" />Details:
-							<div id="detailsDIVLink3286" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3313" onclick="parent.toggleDiv('detailsDIVLink3313','DetailsImageLink3313')" />Details:
+							<div id="detailsDIVLink3313" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -135,7 +374,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2491.html">«type» GM_Ring</a><br />
+						<a href="EA2490.html">«type» GM_CurveBoundary</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -143,14 +382,83 @@ function nameClassifier(name, separator)
 						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> interior<br />
+						<strong>Name:</strong> endPoint<br />
 						&nbsp;	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3287" onclick="parent.toggleDiv('detailsDIVLink3287','DetailsImageLink3287')" />Details:
-							<div id="detailsDIVLink3287" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3314" onclick="parent.toggleDiv('detailsDIVLink3314','DetailsImageLink3314')" />Details:
+							<div id="detailsDIVLink3314" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA2490.html">«type» GM_CurveBoundary</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> startPoint<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3315" onclick="parent.toggleDiv('detailsDIVLink3315','DetailsImageLink3315')" />Details:
+							<div id="detailsDIVLink3315" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA2358.html">GM_PointRef</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> point<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3316" onclick="parent.toggleDiv('detailsDIVLink3316','DetailsImageLink3316')" />Details:
+							<div id="detailsDIVLink3316" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../../../EA5/EA1/EA1/EA10/EA3047.html">«FeatureType» Transformer</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> geometry<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3317" onclick="parent.toggleDiv('detailsDIVLink3317','DetailsImageLink3317')" />Details:
+							<div id="detailsDIVLink3317" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -171,8 +479,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3288" onclick="parent.toggleDiv('detailsDIVScenario3288','DetailsImageScenario3288')" />Details:
-						<div id="detailsDIVScenario3288" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3318" onclick="parent.toggleDiv('detailsDIVScenario3318','DetailsImageScenario3318')" />Details:
+						<div id="detailsDIVScenario3318" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -202,10 +510,24 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2490.html">«Abstract» GM_PrimitiveBoundary</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA4/EA2/EA1547.html">Point</a></td>
+					<td width="10%" class="TableRow" valign="top">Interface</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2497.html">«type» GM_Primitive</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA2432.html">«type» GM_CompositePoint</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

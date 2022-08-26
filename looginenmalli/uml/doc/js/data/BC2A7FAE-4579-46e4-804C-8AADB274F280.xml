@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.8.5.1", "1", "ISO 19109 Edition 2", "EARoot/EA8/EA5/EA1/EA2806.html", "4.png", "", "", "{785FBFD7-DEE3-48fe-9DD9-2088013812DB}", "Package");
-tocTab[tocTab.length] = new Array("0.8.5.2", "1", "ISO 19109 Edition 1", "EARoot/EA8/EA5/EA2/EA3186.html", "4.png", "", "", "{B4B205F0-FBE3-4e22-BFD5-D56EDC28F3CC}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5.1", "1", "ISO 19109 Edition 2", "EARoot/EA8/EA5/EA1/EA2814.html", "4.png", "", "", "{785FBFD7-DEE3-48fe-9DD9-2088013812DB}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5.2", "1", "ISO 19109 Edition 1", "EARoot/EA8/EA5/EA2/EA3194.html", "4.png", "", "", "{B4B205F0-FBE3-4e22-BFD5-D56EDC28F3CC}", "Package");

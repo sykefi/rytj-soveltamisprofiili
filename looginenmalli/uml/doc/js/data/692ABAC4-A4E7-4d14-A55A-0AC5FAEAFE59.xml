@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.8.3.4.3.3:1", "", "«interface» Rhumb", "EARoot/EA8/EA3/EA4/EA3/EA3/EA1585.html", "8.png", "E718", "0", "", "Interface0","{C69F9718-66E3-4104-BC31-165879B853B4}");
-tocTab[tocTab.length] = new Array("0.8.3.4.3.3:2", "", "«datatype» RhumbData", "EARoot/EA8/EA3/EA4/EA3/EA3/EA1586.html", "230.png", "E719", "0", "", "DataType0","{05208C28-D011-4a5e-AD9C-58DD0BF9AB1E}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.3:1", "", "«interface» Rhumb", "EARoot/EA8/EA3/EA4/EA3/EA3/EA1593.html", "8.png", "E718", "0", "", "Interface0","{C69F9718-66E3-4104-BC31-165879B853B4}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.3:2", "", "«datatype» RhumbData", "EARoot/EA8/EA3/EA4/EA3/EA3/EA1594.html", "230.png", "E719", "0", "", "DataType0","{05208C28-D011-4a5e-AD9C-58DD0BF9AB1E}");

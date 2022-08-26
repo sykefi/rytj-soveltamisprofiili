@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.3.4.3.6:1", "", "Figure 26 — Spirals", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1623.html", "175.png", "350", "0", "", "Logical diagram0","{14CE5B43-9BF9-45c1-B76D-35C18A98DD2A}");
-tocTab[tocTab.length] = new Array("0.8.3.4.3.6:2", "", "Spiral", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1626.html", "8.png", "E743", "0", "", "Interface0","{FE7E8359-BDE1-47da-A33C-7FD2A87A1AED}");
-tocTab[tocTab.length] = new Array("0.8.3.4.3.6:3", "", "«datatype» SpiralData", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1627.html", "230.png", "E745", "0", "", "DataType0","{2245286A-9D6B-47ad-8AD0-3CB5CFECAF2D}");
-tocTab[tocTab.length] = new Array("0.8.3.4.3.6:4", "", "Clothoid", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1628.html", "8.png", "E744", "0", "", "Interface0","{7AEFEE4D-D536-45c5-8E28-3E3E604660A5}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.6:1", "", "Figure 26 — Spirals", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1631.html", "175.png", "350", "0", "", "Logical diagram0","{14CE5B43-9BF9-45c1-B76D-35C18A98DD2A}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.6:2", "", "Spiral", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1634.html", "8.png", "E743", "0", "", "Interface0","{FE7E8359-BDE1-47da-A33C-7FD2A87A1AED}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.6:3", "", "«datatype» SpiralData", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1635.html", "230.png", "E745", "0", "", "DataType0","{2245286A-9D6B-47ad-8AD0-3CB5CFECAF2D}");
+tocTab[tocTab.length] = new Array("0.8.3.4.3.6:4", "", "Clothoid", "EARoot/EA8/EA3/EA4/EA3/EA6/EA1636.html", "8.png", "E744", "0", "", "Interface0","{7AEFEE4D-D536-45c5-8E28-3E3E604660A5}");

@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.1.1.14:1", "", "ASM_Generic", "EARoot/EA8/EA1/EA1/EA14/EA364.html", "176.png", "28", "0", "", "Package diagram0","{A2D60A9A-8A9B-4890-8659-7351B7A2549D}");
-tocTab[tocTab.length] = new Array("0.8.1.1.14.1", "", "Applications Schemas", "EARoot/EA8/EA1/EA1/EA14/EA1/EA370.html", "4.png", "", "", "{B756FEDB-B89B-45f8-A71A-8CEDF64DBC11}", "Package");
-tocTab[tocTab.length] = new Array("0.8.1.1.14.2", "", "Feature Catalogues", "EARoot/EA8/EA1/EA1/EA14/EA2/EA371.html", "4.png", "", "", "{42965B82-B55C-4097-BC36-50905E94210A}", "Package");
-tocTab[tocTab.length] = new Array("0.8.1.1.14.3", "", "Ontologies", "EARoot/EA8/EA1/EA1/EA14/EA3/EA372.html", "4.png", "", "", "{10852485-DC26-4ff5-825D-825614C5128B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1.1.14:1", "", "ASM_Generic", "EARoot/EA8/EA1/EA1/EA14/EA372.html", "176.png", "28", "0", "", "Package diagram0","{A2D60A9A-8A9B-4890-8659-7351B7A2549D}");
+tocTab[tocTab.length] = new Array("0.8.1.1.14.1", "", "Applications Schemas", "EARoot/EA8/EA1/EA1/EA14/EA1/EA378.html", "4.png", "", "", "{B756FEDB-B89B-45f8-A71A-8CEDF64DBC11}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1.1.14.2", "", "Feature Catalogues", "EARoot/EA8/EA1/EA1/EA14/EA2/EA379.html", "4.png", "", "", "{42965B82-B55C-4097-BC36-50905E94210A}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1.1.14.3", "", "Ontologies", "EARoot/EA8/EA1/EA1/EA14/EA3/EA380.html", "4.png", "", "", "{10852485-DC26-4ff5-825D-825614C5128B}", "Package");
