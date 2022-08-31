@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:1", "", "Figure 12 - Boolean type", "EARoot/EA8/EA2/EA1/EA1/EA4/EA733.html", "175.png", "118", "0", "", "Logical diagram0","{00F3F16A-0D06-41ac-97FC-D5C27A52638A}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:2", "", "Truth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA735.html", "175.png", "117", "0", "", "Logical diagram0","{88105526-8FA3-4464-9366-F1CFFC78CF08}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:3", "", "Boolean", "EARoot/EA8/EA2/EA1/EA1/EA4/EA740.html", "247.png", "E385", "0", "", "Enumeration0","{D5D2C28F-16CC-4c94-A92D-75ED3C66BA54}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:4", "", "ContinuousTruth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA741.html", "8.png", "E381", "0", "", "Interface0","{6552D4BC-C4F0-454b-8134-049D2B9D8AB3}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:5", "", "DiscreteTruth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA742.html", "8.png", "E382", "0", "", "Interface0","{DA7315D8-57FB-47a3-B9B4-DC82BD475E43}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:6", "", "Logical", "EARoot/EA8/EA2/EA1/EA1/EA4/EA743.html", "247.png", "E386", "0", "", "Enumeration0","{B9B60830-63A2-4871-8783-BD81BFAE73E0}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:7", "", "Probability", "EARoot/EA8/EA2/EA1/EA1/EA4/EA744.html", "8.png", "E383", "0", "", "Interface0","{0F28E55D-4518-42bf-B6FD-252DD9C24F17}");
-tocTab[tocTab.length] = new Array("0.8.2.1.1.4:8", "", "Truth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA745.html", "8.png", "E384", "0", "", "Interface0","{A8F290AA-32D9-4308-AE1B-7C70B4AE31A2}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:1", "", "Figure 12 - Boolean type", "EARoot/EA8/EA2/EA1/EA1/EA4/EA732.html", "175.png", "118", "0", "", "Logical diagram0","{00F3F16A-0D06-41ac-97FC-D5C27A52638A}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:2", "", "Truth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA734.html", "175.png", "117", "0", "", "Logical diagram0","{88105526-8FA3-4464-9366-F1CFFC78CF08}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:3", "", "Boolean", "EARoot/EA8/EA2/EA1/EA1/EA4/EA739.html", "247.png", "E385", "0", "", "Enumeration0","{D5D2C28F-16CC-4c94-A92D-75ED3C66BA54}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:4", "", "ContinuousTruth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA740.html", "8.png", "E381", "0", "", "Interface0","{6552D4BC-C4F0-454b-8134-049D2B9D8AB3}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:5", "", "DiscreteTruth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA741.html", "8.png", "E382", "0", "", "Interface0","{DA7315D8-57FB-47a3-B9B4-DC82BD475E43}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:6", "", "Logical", "EARoot/EA8/EA2/EA1/EA1/EA4/EA742.html", "247.png", "E386", "0", "", "Enumeration0","{B9B60830-63A2-4871-8783-BD81BFAE73E0}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:7", "", "Probability", "EARoot/EA8/EA2/EA1/EA1/EA4/EA743.html", "8.png", "E383", "0", "", "Interface0","{0F28E55D-4518-42bf-B6FD-252DD9C24F17}");
+tocTab[tocTab.length] = new Array("0.8.2.1.1.4:8", "", "Truth", "EARoot/EA8/EA2/EA1/EA1/EA4/EA744.html", "8.png", "E384", "0", "", "Interface0","{A8F290AA-32D9-4308-AE1B-7C70B4AE31A2}");

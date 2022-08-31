@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.3.4.5.2:1", "", "«interface» ParametricCurveSolid", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1711.html", "8.png", "E792", "0", "", "Interface0","{580104D9-9994-4a8b-8AF8-0B6622BED9DC}");
-tocTab[tocTab.length] = new Array("0.8.3.4.5.2:2", "", "«datatype» ParametricCurveSolidData ", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1712.html", "230.png", "E794", "0", "", "DataType0","{5E923149-1CC5-473a-9710-5CC9E5CA88F4}");
-tocTab[tocTab.length] = new Array("0.8.3.4.5.2:3", "", "«dataType» ParametricCurveSolidType", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1713.html", "230.png", "E795", "0", "", "DataType0","{8D917F98-5B7C-4860-963B-CE1D4F0883EF}");
-tocTab[tocTab.length] = new Array("0.8.3.4.5.2:4", "", "SolidSpline", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1714.html", "8.png", "E793", "0", "", "Interface0","{5DDE1623-1D07-48b2-A991-A718EF51F58D}");
+tocTab[tocTab.length] = new Array("0.8.3.4.5.2:1", "", "«interface» ParametricCurveSolid", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1710.html", "8.png", "E792", "0", "", "Interface0","{580104D9-9994-4a8b-8AF8-0B6622BED9DC}");
+tocTab[tocTab.length] = new Array("0.8.3.4.5.2:2", "", "«datatype» ParametricCurveSolidData ", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1711.html", "230.png", "E794", "0", "", "DataType0","{5E923149-1CC5-473a-9710-5CC9E5CA88F4}");
+tocTab[tocTab.length] = new Array("0.8.3.4.5.2:3", "", "«dataType» ParametricCurveSolidType", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1712.html", "230.png", "E795", "0", "", "DataType0","{8D917F98-5B7C-4860-963B-CE1D4F0883EF}");
+tocTab[tocTab.length] = new Array("0.8.3.4.5.2:4", "", "SolidSpline", "EARoot/EA8/EA3/EA4/EA5/EA2/EA1713.html", "8.png", "E793", "0", "", "Interface0","{5DDE1623-1D07-48b2-A991-A718EF51F58D}");

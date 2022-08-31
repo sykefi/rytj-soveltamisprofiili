@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.8.2.1.7:1", "", "Figure C.2  Language specific text type", "EARoot/EA8/EA2/EA1/EA7/EA847.html", "175.png", "153", "0", "", "Logical diagram0","{3C39387E-B15B-4935-A8A5-FB5DD145E3D5}");
-tocTab[tocTab.length] = new Array("0.8.2.1.7:2", "", "«CodeList» LanguageCode", "EARoot/EA8/EA2/EA1/EA7/EA850.html", "5.png", "E421", "0", "", "Class0","{DBAFF5D4-8472-48f2-B166-1EC6AC0E5698}");
-tocTab[tocTab.length] = new Array("0.8.2.1.7:3", "", "LanguageString", "EARoot/EA8/EA2/EA1/EA7/EA851.html", "8.png", "E422", "0", "", "Interface0","{EE410C36-5B9F-4251-ADB5-9E67475E55ED}");
+tocTab[tocTab.length] = new Array("0.8.2.1.7:1", "", "Figure C.2  Language specific text type", "EARoot/EA8/EA2/EA1/EA7/EA846.html", "175.png", "153", "0", "", "Logical diagram0","{3C39387E-B15B-4935-A8A5-FB5DD145E3D5}");
+tocTab[tocTab.length] = new Array("0.8.2.1.7:2", "", "«CodeList» LanguageCode", "EARoot/EA8/EA2/EA1/EA7/EA849.html", "5.png", "E421", "0", "", "Class0","{DBAFF5D4-8472-48f2-B166-1EC6AC0E5698}");
+tocTab[tocTab.length] = new Array("0.8.2.1.7:3", "", "LanguageString", "EARoot/EA8/EA2/EA1/EA7/EA850.html", "8.png", "E422", "0", "", "Interface0","{EE410C36-5B9F-4251-ADB5-9E67475E55ED}");

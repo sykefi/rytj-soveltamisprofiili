@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Numerics::UnlimitedInteger</title>
+<title>Numerics::Vector</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("UnlimitedInteger", " : "))</script>  : Public abstract  Interface</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Vector", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,18 +87,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DC3E73F8-6A29-413b-ABFA-A2755D94AC96}</td>
+			<td class="ObjectDetailsValue">{934EE103-CEBD-4782-9BE9-258D3836E398}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA713.html">Numerics</a>, <a href="EA715.html">Types related to Numerics</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA693.html">Figure 7 - Primitive types</a>, <a href="EA712.html">Numerics</a>, <a href="EA714.html">Types related to Numerics</a>, <a href="EA708.html">Figure 10 - Vector type</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">-- Infinite if and only if value is not specified&lt;br/&gt;{[ isInfinte = True ] = [ value = Null ]}&lt;br/&gt;-- value is either infinite or non-negative&lt;br/&gt;{value #lt;#gt; Null implies value #gt;= 0}&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">an ordered set of numbers called coordinates that represent a position in a coordinate system. The coordinates may be in a space of any number of dimensions, as for instance in an &quot;nth degree&quot; polynomial spline. &lt;br/&gt;&lt;br/&gt;Example (123, 514, 150)&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
@@ -109,104 +110,217 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../EA4/EA740.html">Boolean</a></i><br /><strong>&nbsp;&nbsp;isInfinite</strong>
+					<i>Public <a href="EA720.html">Number</a></i><br /><strong>&nbsp;&nbsp;coordinates</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1343')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1343" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1350')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1350" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes1343_00" style="display: none;">
+						<tr id="DetailsImageAttributes1350_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_01" style="display: none;">
+						<tr id="DetailsImageAttributes1350_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_02" style="display: none;">
+						<tr id="DetailsImageAttributes1350_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_03" style="display: none;">
+						<tr id="DetailsImageAttributes1350_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
-							<td></td>
+							<td>Ordered <br /></td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_04" style="display: none;">
+						<tr id="DetailsImageAttributes1350_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_05" style="display: none;">
+						<tr id="DetailsImageAttributes1350_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes1343_06" style="display: none;">
+						<tr id="DetailsImageAttributes1350_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes1343_07" style="display: none;">
+							<tr id="DetailsImageAttributes1350_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
 					</table>
 					
 					
-						&nbsp;
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			list of numbers representing the vector&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="EA720.html">Integer</a></i><br /><strong>&nbsp;&nbsp;value</strong>
+					<i>Public <a href="EA719.html">Integer</a></i><br /><strong>&nbsp;&nbsp;dimension</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1344')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1344" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1351')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1351" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes1344_00" style="display: none;">
+						<tr id="DetailsImageAttributes1351_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_01" style="display: none;">
+						<tr id="DetailsImageAttributes1351_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_02" style="display: none;">
+						<tr id="DetailsImageAttributes1351_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_03" style="display: none;">
+						<tr id="DetailsImageAttributes1351_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_04" style="display: none;">
+						<tr id="DetailsImageAttributes1351_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
-							<td>Range:0 to 1</td>
+							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_05" style="display: none;">
+						<tr id="DetailsImageAttributes1351_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes1344_06" style="display: none;">
+						<tr id="DetailsImageAttributes1351_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes1344_07" style="display: none;">
+							<tr id="DetailsImageAttributes1351_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
 					</table>
 					
 					
-						&nbsp;
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			dimension in Euclidian space&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
 						
 				</td>
 			</tr>
 	</table>
 </div>
-<div class="ItemBody" id="TaggedValTable">
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>scalarMultiply</strong>(					<a href="#" onclick="parent.toggleData('param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}" border="0" />n: <a href="EA720.html">Number</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{647D2300-49BD-4d98-B1B1-1F5207ED0B36}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA723.html">Vector</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1352" onclick="parent.toggleDiv('detailsDIVOperations1352','DetailsImageOperations1352')" />Details:
+						<div id="detailsDIVOperations1352" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>vectorAdd</strong>(					<a href="#" onclick="parent.toggleData('param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}" border="0" />v: <a href="EA723.html">Vector</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B5DC35E8-B84D-4726-A235-81C8809BCDFA}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):<a href="EA723.html">Vector</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1353" onclick="parent.toggleDiv('detailsDIVOperations1353','DetailsImageOperations1353')" />Details:
+						<div id="detailsDIVOperations1353" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div><div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
 			<td width="50%" class="TableHeading">Tag</td>
@@ -218,8 +332,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1345" onclick="parent.toggleDiv('detailsDIVScenario1345','DetailsImageScenario1345')" />Details:
-						<div id="detailsDIVScenario1345" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1354" onclick="parent.toggleDiv('detailsDIVScenario1354','DetailsImageScenario1354')" />Details:
+						<div id="detailsDIVScenario1354" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>

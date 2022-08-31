@@ -1,10 +1,9 @@
 tocTab[tocTab.length] = new Array("0.3:1", "", "Koodistot", "EARoot/EA3/EA56.html", "175.png", "983", "0", "", "Logical diagram0","{087698F9-0F35-4cb1-8A53-58BAE9F69E5C}");
 tocTab[tocTab.length] = new Array("0.3:2", "", "RYTJ-soveltamisprofiili", "EARoot/EA3/EA58.html", "175.png", "978", "0", "", "Logical diagram0","{573AE888-4B48-4329-BA05-61ECCCDE23F7}");
 tocTab[tocTab.length] = new Array("0.3:3", "", "«FeatureType» Hissi", "EARoot/EA3/EA61.html", "5.png", "E1630", "0", "", "Class0","{08FCC200-88E0-49a0-AEE4-323DEE34EC31}");
-tocTab[tocTab.length] = new Array("0.3:4", "", "«FeatureType» Hissi", "EARoot/EA3/EA62.html", "5.png", "E1623", "0", "", "Class0","{55A14921-02C6-45cb-B40C-56D89D580200}");
-tocTab[tocTab.length] = new Array("0.3:5", "", "«FeatureType» Ilmanvaihtotapa", "EARoot/EA3/EA63.html", "5.png", "E1628", "0", "", "Class0","{0CD90E10-62E7-4211-8B7F-29BA95FC08FC}");
-tocTab[tocTab.length] = new Array("0.3:6", "", "«FeatureType» Jäähdytystapa", "EARoot/EA3/EA64.html", "5.png", "E1627", "0", "", "Class0","{C58C2C0C-97C9-4144-ACD9-72B589EFB70B}");
-tocTab[tocTab.length] = new Array("0.3:7", "", "«FeatureType» Lämmitystapa", "EARoot/EA3/EA65.html", "5.png", "E1624", "0", "", "Class0","{18DEEA27-7F6F-4dc2-8763-E777F4E423AB}");
-tocTab[tocTab.length] = new Array("0.3:8", "", "«FeatureType» Rakennusjärjestys", "EARoot/EA3/EA66.html", "5.png", "E1614", "0", "", "Class0","{67598B0E-E96B-4483-8147-35F2E53C88D4}");
-tocTab[tocTab.length] = new Array("0.3:9", "", "«FeatureType» YleisenAlueenSuunnitelma", "EARoot/EA3/EA67.html", "5.png", "E1615", "0", "", "Class0","{BAAFCC38-610D-40fc-9712-D4E2B27CC6DB}");
-tocTab[tocTab.length] = new Array("0.3:10", "", "«FeatureType» KatselmuksenTila", "EARoot/EA3/EA68.html", "5.png", "E1629", "0", "", "Class0","{347BF419-6BE2-44fc-9493-C0847C04ABE7}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "«FeatureType» Ilmanvaihtotapa", "EARoot/EA3/EA62.html", "5.png", "E1628", "0", "", "Class0","{0CD90E10-62E7-4211-8B7F-29BA95FC08FC}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "«FeatureType» Jäähdytystapa", "EARoot/EA3/EA63.html", "5.png", "E1627", "0", "", "Class0","{C58C2C0C-97C9-4144-ACD9-72B589EFB70B}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "«FeatureType» Lämmitystapa", "EARoot/EA3/EA64.html", "5.png", "E1624", "0", "", "Class0","{18DEEA27-7F6F-4dc2-8763-E777F4E423AB}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "«FeatureType» Rakennusjärjestys", "EARoot/EA3/EA65.html", "5.png", "E1614", "0", "", "Class0","{67598B0E-E96B-4483-8147-35F2E53C88D4}");
+tocTab[tocTab.length] = new Array("0.3:8", "", "«FeatureType» YleisenAlueenSuunnitelma", "EARoot/EA3/EA66.html", "5.png", "E1615", "0", "", "Class0","{BAAFCC38-610D-40fc-9712-D4E2B27CC6DB}");
+tocTab[tocTab.length] = new Array("0.3:9", "", "«FeatureType» KatselmuksenTila", "EARoot/EA3/EA67.html", "5.png", "E1629", "0", "", "Class0","{347BF419-6BE2-44fc-9493-C0847C04ABE7}");

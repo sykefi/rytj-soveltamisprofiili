@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Records and Class Metadata::Schema</title>
+<title>Records and Class Metadata::Type</title>
 <link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Schema", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Type", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,20 +87,20 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{62DE208B-E08B-4d2f-AF65-9E9A31F084CE}</td>
+			<td class="ObjectDetailsValue">{D60BB5DC-5007-4e01-AA53-70FEA39A57EF}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA2/EA1196.html">Context Diagram: NameSpace</a>, <a href="EA1216.html">Class Schemas</a>, <a href="EA1226.html">Context Diagram: RecordSchema</a>, <a href="EA1230.html">Context Diagram: Schema</a>, <a href="EA1236.html">Schema CD</a>, <a href="EA1234.html">Records and Class Types</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1227.html">Context Diagram: RecordType</a>, <a href="EA1231.html">Context Diagram: Type</a>, <a href="EA1215.html">Class Schemas</a>, <a href="EA1229.html">Context Diagram: Schema</a>, <a href="EA1221.html">Context Diagram: OperationType</a>, <a href="EA1213.html">Any root class</a>, <a href="EA1235.html">Schema CD</a>, <a href="EA1233.html">Records and Class Types</a>, <a href="EA1217.html">Context Diagram: Any</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">A Schema is a NameSpace for metaclass objects that each describes a class, type, interface or record type.&lt;br/&gt;&lt;br/&gt;It has a local name for location in a larger name space scope, and a mapping that indexed the names of any named object. Targets of this index are usually locally described. &lt;br/&gt;&lt;br/&gt;{description-#gt;contains(n) implies locate(n.typeName) =n}&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Type is used here for as a generic concept for any metalanguage description of an object class. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -112,139 +112,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../EA2/EA1212.html">TypeName</a></i><br /><strong>&nbsp;&nbsp;acceptableClassList</strong>
+					<i>Public <a href="../EA2/EA1211.html">TypeName</a></i><br /><strong>&nbsp;&nbsp;typeName</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1901')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1901" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1912')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1912" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes1901_00" style="display: none;">
+						<tr id="DetailsImageAttributes1912_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1901_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td>{Any}</td>
-						</tr>
-						<tr id="DetailsImageAttributes1901_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1901_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1901_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td>Range:0 to *</td>
-						</tr>
-						<tr id="DetailsImageAttributes1901_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes1901_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes1901_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public <a href="../../EA3/EA6/EA1376.html">Boolean</a></i><br /><strong>&nbsp;&nbsp;isGlobal</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1902')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1902" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes1902_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1902_01" style="display: none;">
+						<tr id="DetailsImageAttributes1912_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1902_02" style="display: none;">
+						<tr id="DetailsImageAttributes1912_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1902_03" style="display: none;">
+						<tr id="DetailsImageAttributes1912_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1902_04" style="display: none;">
+						<tr id="DetailsImageAttributes1912_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes1902_05" style="display: none;">
+						<tr id="DetailsImageAttributes1912_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes1902_06" style="display: none;">
+						<tr id="DetailsImageAttributes1912_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes1902_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public <a href="../EA2/EA1206.html">LocalName</a></i><br /><strong>&nbsp;&nbsp;schemaName</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1903')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1903" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes1903_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes1903_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes1903_07" style="display: none;">
+							<tr id="DetailsImageAttributes1912_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -265,13 +169,13 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>asRecordSchema</strong>():<a href="EA1246.html">RecordSchema</a>
+					<strong>RecordTypeRepresentation</strong>():<a href="EA1246.html">RecordType</a>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1904" onclick="parent.toggleDiv('detailsDIVOperations1904','DetailsImageOperations1904')" />Details:
-						<div id="detailsDIVOperations1904" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1913" onclick="parent.toggleDiv('detailsDIVOperations1913','DetailsImageOperations1913')" />Details:
+						<div id="detailsDIVOperations1913" class="DetailsDiv" >
 					<i>Sequential  </i>
 					<table>
 						<tr>
@@ -279,7 +183,17 @@ function nameClassifier(name, separator)
 							<td></td>
 						</tr>
 					</table>
-					
+					<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Behavior: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Returns a record type that replicates the internal state of instances of this type. Essentially, the record type is the state but not the behavior of the class it represents. 
+		</td>
+	</tr>
+</table></div>
+
 					
 					<div class="ObjectDetailsNotes"><table>
 	<tr>
@@ -287,7 +201,7 @@ function nameClassifier(name, separator)
 			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
 		</td>
 		<td>
-			RecordSchema creates a complete schema for the states of all types in the schema. Note: if this is applied to a RecordSchema, it would return itself. &lt;br/&gt;
+			The RecordTypeRepresentation of a Type in the Schema is a RecordType that can be used to encodes the state of instances of the associated Type. By iterating this across all Types in the Schema would create a RecordSchema containing all of the state encodings of all the types. If this operation were applied to a DataType or RecordType, it would logically return the attributes of the DataType or the&#160;&#160;original RecordType respectively. &lt;br/&gt;
 		</td>
 	</tr>
 </table></div>
@@ -296,52 +210,9 @@ function nameClassifier(name, separator)
 					</div>
 				</td>
 			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>locate</strong>(					<a href="#" onclick="parent.toggleData('param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}" border="0" />name: <a href="../EA2/EA1212.html">TypeName</a></a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>inout</td>
-						</tr>
-						<tr id="param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{8E018A8A-2D96-42b2-8AED-766C98EC74BB}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):<a href="EA1249.html">Type</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1905" onclick="parent.toggleDiv('detailsDIVOperations1905','DetailsImageOperations1905')" />Details:
-						<div id="detailsDIVOperations1905" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
 
 		</table>
-</div>		<div class="ItemBody" id="AssociationsToTable">
+</div>		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="40%" class="TableHeading">Element</td>
@@ -350,7 +221,30 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA1249.html">«type» Type</a><br />
+						<a href="EA1246.html">«type» RecordType</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> memberType<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1914" onclick="parent.toggleDiv('detailsDIVLink1914','DetailsImageLink1914')" />Details:
+							<div id="detailsDIVLink1914" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA1247.html">«type» Schema</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -364,8 +258,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1906" onclick="parent.toggleDiv('detailsDIVLink1906','DetailsImageLink1906')" />Details:
-							<div id="detailsDIVLink1906" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1915" onclick="parent.toggleDiv('detailsDIVLink1915','DetailsImageLink1915')" />Details:
+							<div id="detailsDIVLink1915" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -386,8 +280,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1907" onclick="parent.toggleDiv('detailsDIVScenario1907','DetailsImageScenario1907')" />Details:
-						<div id="detailsDIVScenario1907" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1916" onclick="parent.toggleDiv('detailsDIVScenario1916','DetailsImageScenario1916')" />Details:
+						<div id="detailsDIVScenario1916" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -417,14 +311,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1208.html">«type» NameSpace</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1246.html">«type» RecordSchema</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1246.html">«type» RecordType</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
