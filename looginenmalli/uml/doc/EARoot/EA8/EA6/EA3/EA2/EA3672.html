@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Reference Systems::SC_ProjectedCRS</title>
+<title>Coordinate Reference Systems::SC_ImageCRS</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SC_ProjectedCRS", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("SC_ImageCRS", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,19 +87,18 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F66E55D5-8196-48ae-B425-3492EB2EAFAE}</td>
+			<td class="ObjectDetailsValue">{299C588D-2F7B-42c3-87F7-327E6F59F26B}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3656.html">Main</a>, <a href="EA3650.html">Context Diagram: SC_ProjectedCRS</a>, <a href="../EA3/EA3707.html">CRS Associations</a>, <a href="../EA4/EA3746.html">CRSAssociations</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3657.html">Main</a>, <a href="EA3649.html">Context Diagram: SC_ImageCRS</a>, <a href="../EA3/EA3708.html">CRS Associations</a>, <a href="../EA4/EA3747.html">CRSAssociations</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">A derived coordinate reference system which has a geodetic coordinate reference system as its base CRS and is converted using a map projection.&lt;br/&gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">A coordinate reference system associated with an image datum. Image coordinate reference systems are treated as a separate sub-type because the definition of the associated image datum contains two attributes not relevant to other engineering datums.&lt;br/&gt;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -113,57 +112,46 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3670.html">«type» SC_GeodeticCRS</a><br />
+						<a href="../EA3/EA3722.html">«Union» CS_ImageCS</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> derivedCRS<br />
-						Association from a projected coordinate reference system to its base geodetic coordinate reference system.
+						<strong>Name:</strong> referenceSystem<br />
+						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> baseCRS<br />
-						Association to the base geodetic coordinate reference system used by this projected CRS. 	
+						<strong>Name:</strong> coordinateSystem<br />
+						&nbsp;	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5497" onclick="parent.toggleDiv('detailsDIVLink5497','DetailsImageLink5497')" />Details:
-							<div id="detailsDIVLink5497" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Association from a projected coordinate reference system to its base geodetic coordinate reference systems. This association is used when one CRS can only exist when a base CRS and a defining coordinate conversion that relates the projected CRS to the base CRS both exist.&#160;&#160;A projected CRS cannot exist without a base geodetic CRS and a map projection (coordinate conversion). &lt;br/&gt;</div>
-
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5500" onclick="parent.toggleDiv('detailsDIVLink5500','DetailsImageLink5500')" />Details:
+							<div id="detailsDIVLink5500" class="DetailsDiv" >
+							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA3/EA3714.html">«type» CS_CartesianCS</a><br />
+						<a href="../EA4/EA3757.html">«type» CD_ImageDatum</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> coordinateSystem<br />
-						Association to the Cartesian coordinate system used by this projected CRS. 
+						<strong>Name:</strong> referenceSystem<br />
+						Not-navigable association from an image coordinate reference system that uses this image datum. 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> referenceSystem<br />
-						Not-navigable association from a Projected CRS that uses this Cartesian Coordinate System. 	
+						<strong>Name:</strong> datum<br />
+						Association to the image datum used by this image coordinate reference system. 	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5498" onclick="parent.toggleDiv('detailsDIVLink5498','DetailsImageLink5498')" />Details:
-							<div id="detailsDIVLink5498" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">Not-navigable associtaion from a Projected CRS that uses this Cartesian Coordinate System.&lt;br/&gt;</div>
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5501" onclick="parent.toggleDiv('detailsDIVLink5501','DetailsImageLink5501')" />Details:
+							<div id="detailsDIVLink5501" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Association to the image datum used by this image coordinate reference system.&lt;br/&gt;</div>
 
 							</div>
 						</div>
@@ -184,8 +172,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5499" onclick="parent.toggleDiv('detailsDIVScenario5499','DetailsImageScenario5499')" />Details:
-						<div id="detailsDIVScenario5499" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5502" onclick="parent.toggleDiv('detailsDIVScenario5502','DetailsImageScenario5502')" />Details:
+						<div id="detailsDIVScenario5502" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Create a property type that requires that the instance is encoded inline (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -197,8 +185,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5500" onclick="parent.toggleDiv('detailsDIVScenario5500','DetailsImageScenario5500')" />Details:
-						<div id="detailsDIVScenario5500" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5503" onclick="parent.toggleDiv('detailsDIVScenario5503','DetailsImageScenario5503')" />Details:
+						<div id="detailsDIVScenario5503" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: Identifies the type as an object collection.<br /></div>
 
 						</div>
@@ -210,8 +198,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5501" onclick="parent.toggleDiv('detailsDIVScenario5501','DetailsImageScenario5501')" />Details:
-						<div id="detailsDIVScenario5501" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5504" onclick="parent.toggleDiv('detailsDIVScenario5504','DetailsImageScenario5504')" />Details:
+						<div id="detailsDIVScenario5504" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Surpress creation of a standard property type that supports inline or by-reference encoding (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -223,8 +211,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5502" onclick="parent.toggleDiv('detailsDIVScenario5502','DetailsImageScenario5502')" />Details:
-						<div id="detailsDIVScenario5502" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5505" onclick="parent.toggleDiv('detailsDIVScenario5505','DetailsImageScenario5505')" />Details:
+						<div id="detailsDIVScenario5505" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -235,8 +223,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5503" onclick="parent.toggleDiv('detailsDIVScenario5503','DetailsImageScenario5503')" />Details:
-						<div id="detailsDIVScenario5503" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5506" onclick="parent.toggleDiv('detailsDIVScenario5506','DetailsImageScenario5506')" />Details:
+						<div id="detailsDIVScenario5506" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007_INSPIRE_Extensions<br />Description: XML Schema encoding rule to apply<br /></div>
 
 						</div>
@@ -267,7 +255,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3669.html">«type» SC_GeneralDerivedCRS</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3674.html">«type» SC_SingleCRS</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

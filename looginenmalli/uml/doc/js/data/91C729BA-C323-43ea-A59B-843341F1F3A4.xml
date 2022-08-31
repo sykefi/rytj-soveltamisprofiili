@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.8.3:1", "", "ISO 19107 Editions", "EARoot/EA8/EA3/EA1381.html", "175.png", "300", "0", "", "Logical diagram0","{23980E67-ADDA-420d-A037-AAEB650AFFC2}");
-tocTab[tocTab.length] = new Array("0.8.3.1", "1", "Informative Annex to Spatial Schema", "EARoot/EA8/EA3/EA1/EA1389.html", "4.png", "", "", "{FE450EA5-7E49-47aa-B9A7-27273CC66B97}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3.2", "", "Possible Excess Model Elements", "EARoot/EA8/EA3/EA2/EA1392.html", "4.png", "", "", "{213A8B31-29C3-474d-9E27-326C0DE2C407}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3.3", "1", "WKT for Features and their Geometry", "EARoot/EA8/EA3/EA3/EA1417.html", "4.png", "", "", "{544E4B67-C27A-446e-930E-47CC8994BAA4}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3.4", "1", "ISO 19107 Edition 2", "EARoot/EA8/EA3/EA4/EA1428.html", "4.png", "", "", "{7CB9CEE5-F658-4eeb-8A51-CD7FA9526963}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3.5", "1", "ISO 19107 Edition 1", "EARoot/EA8/EA3/EA5/EA2153.html", "4.png", "", "", "{CE7CB85F-6898-498a-97FD-7CB87E7929BB}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3:1", "", "ISO 19107 Editions", "EARoot/EA8/EA3/EA1382.html", "175.png", "300", "0", "", "Logical diagram0","{23980E67-ADDA-420d-A037-AAEB650AFFC2}");
+tocTab[tocTab.length] = new Array("0.8.3.1", "1", "Informative Annex to Spatial Schema", "EARoot/EA8/EA3/EA1/EA1390.html", "4.png", "", "", "{FE450EA5-7E49-47aa-B9A7-27273CC66B97}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3.2", "", "Possible Excess Model Elements", "EARoot/EA8/EA3/EA2/EA1393.html", "4.png", "", "", "{213A8B31-29C3-474d-9E27-326C0DE2C407}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3.3", "1", "WKT for Features and their Geometry", "EARoot/EA8/EA3/EA3/EA1418.html", "4.png", "", "", "{544E4B67-C27A-446e-930E-47CC8994BAA4}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3.4", "1", "ISO 19107 Edition 2", "EARoot/EA8/EA3/EA4/EA1429.html", "4.png", "", "", "{7CB9CEE5-F658-4eeb-8A51-CD7FA9526963}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3.5", "1", "ISO 19107 Edition 1", "EARoot/EA8/EA3/EA5/EA2154.html", "4.png", "", "", "{CE7CB85F-6898-498a-97FD-7CB87E7929BB}", "Package");

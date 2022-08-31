@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Operations::OperationMethod</title>
+<title>Coordinate Operations::PointMotionOperation</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("OperationMethod", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("PointMotionOperation", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">Easy</td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,20 +87,21 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C9AE9B31-4821-4514-B27E-1992D7A6D43E}</td>
+			<td class="ObjectDetailsValue">{69C83109-2C2A-4796-A769-D84EB610ADDB}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1/EA3417.html">Identified Object with subtypes</a>, <a href="EA3513.html">Operations Part 2</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA3/EA3440.html">Coordinate Reference Systems</a>, <a href="EA3512.html">Operations Part 1</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">method (algorithm or procedure) used to perform the coordinate operation&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">mathematical operation that decribes the change of coordinate values within one coordinate reference system due to the motion of the point between one coordinate epoch and another coordinate epoch &lt;br/&gt;Note: In this document the motion is due to tectonic plate movement or deformation.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -111,7 +112,7 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="EA3531.html">Formula</a></i><br /><strong>&nbsp;&nbsp;formulaReference</strong>
+					<i>Public <a href="../../../EA2/EA1/EA1/EA3/EA731.html">CharacterString</a></i><br /><strong>&nbsp;&nbsp;operationVersion</strong>
 				</td>
 			</tr>
 			<tr>
@@ -160,7 +161,7 @@ function nameClassifier(name, separator)
 			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
 		</td>
 		<td>
-			formula(s) or procedure used by this coordinate operation method&lt;br/&gt;Note: This may be a reference to a publication. Note that the operation method may not be analytic, in which case this attribute references or contains the procedure, not an analytic formula.&lt;br/&gt;
+			version of the point motion operation (i.e. instantiation due to the stochastic nature of the parameters) &lt;br/&gt;Note: This attribute is mandatory in a point motion operation.&lt;br/&gt;
 		</td>
 	</tr>
 </table></div>
@@ -170,7 +171,7 @@ function nameClassifier(name, separator)
 			</tr>
 	</table>
 </div>
-		<div class="ItemBody" id="AssociationsFromTable">
+		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="40%" class="TableHeading">Element</td>
@@ -179,15 +180,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3532.html">«interface» GeneralOperationParameter</a><br />
+						<a href="../EA3/EA3458.html">«interface» GeodeticCRS</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> parameter<br />
-						parameter or parameter group used by this coordinate operation method
+						<strong>Name:</strong> velocityModel<br />
+						velocity model or deformation grid that may be applied to this geodetic coordinate reference system
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> method<br />
+						<strong>Name:</strong> &nbsp;<br />
 						&nbsp;	
 					</td>
 				</tr>
@@ -202,17 +203,16 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3526.html">«interface» SingleOperation</a><br />
+						<a href="../EA3/EA3464.html">«interface» VerticalCRS</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> coordOperation<br />
-						&nbsp;
+						<strong>Name:</strong> velocityModel<br />
+						velocity model or deformation grid that is applied to this vertical coordinate reference system
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> method<br />
-						algorithm or procedure used by this single operation
-	
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
 					</td>
 				</tr>
 				<tr>
@@ -299,7 +299,47 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>
 	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">targetCRS=sourceCRS</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints5237" onclick="parent.toggleDiv('detailsDIVConstraints5237','DetailsImageConstraints5237')" />Details:
+							<div id="detailsDIVConstraints5237" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Target CRS shall be the same as the source CRS.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">count(sourceEpoch)=1 and count(targetEpoch)=1</td>
+					<td width="10%" class="TableRow">Invariant</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints5238" onclick="parent.toggleDiv('detailsDIVConstraints5238','DetailsImageConstraints5238')" />Details:
+							<div id="detailsDIVConstraints5238" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Must have source and target epoch.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -322,16 +362,16 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3532.html">«interface» GeneralOperationParameter</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3527.html">«interface» SingleOperation</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Weak</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA3424.html">«interface» IdentifiedObject</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA3458.html">«interface» GeodeticCRS</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">Weak</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

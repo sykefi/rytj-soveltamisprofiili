@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.8.3.4.12:1", "", "Figure 43 — Simplex and Simplicial Complex", "EARoot/EA8/EA3/EA4/EA12/EA1766.html", "175.png", "374", "0", "", "Logical diagram0","{FD74B69A-CD0F-42ee-B34B-F6180A1D2763}");
-tocTab[tocTab.length] = new Array("0.8.3.4.12:2", "", "«datatype» Simplex", "EARoot/EA8/EA3/EA4/EA12/EA1769.html", "230.png", "E825", "0", "", "DataType0","{85B32FFC-83FB-4ca7-9870-87967B0CC0C4}");
-tocTab[tocTab.length] = new Array("0.8.3.4.12:3", "", "«datatype» SimplicalTerm", "EARoot/EA8/EA3/EA4/EA12/EA1770.html", "230.png", "E826", "0", "", "DataType0","{50000D45-02D9-4900-B256-E3D2EDDF89E5}");
-tocTab[tocTab.length] = new Array("0.8.3.4.12:4", "", "«datatype» SimplicialComplex", "EARoot/EA8/EA3/EA4/EA12/EA1771.html", "230.png", "E827", "0", "", "DataType0","{077C2BAF-B0B6-4b1f-8D86-E3A5DDE6955C}");
-tocTab[tocTab.length] = new Array("0.8.3.4.12:5", "", "«datatype» SimplicialPolynomial", "EARoot/EA8/EA3/EA4/EA12/EA1772.html", "230.png", "E828", "0", "", "DataType0","{45BA6232-EF9A-4fd9-8F51-2AEBCF1FE50F}");
+tocTab[tocTab.length] = new Array("0.8.3.4.12:1", "", "Figure 43 — Simplex and Simplicial Complex", "EARoot/EA8/EA3/EA4/EA12/EA1767.html", "175.png", "374", "0", "", "Logical diagram0","{FD74B69A-CD0F-42ee-B34B-F6180A1D2763}");
+tocTab[tocTab.length] = new Array("0.8.3.4.12:2", "", "«datatype» Simplex", "EARoot/EA8/EA3/EA4/EA12/EA1770.html", "230.png", "E825", "0", "", "DataType0","{85B32FFC-83FB-4ca7-9870-87967B0CC0C4}");
+tocTab[tocTab.length] = new Array("0.8.3.4.12:3", "", "«datatype» SimplicalTerm", "EARoot/EA8/EA3/EA4/EA12/EA1771.html", "230.png", "E826", "0", "", "DataType0","{50000D45-02D9-4900-B256-E3D2EDDF89E5}");
+tocTab[tocTab.length] = new Array("0.8.3.4.12:4", "", "«datatype» SimplicialComplex", "EARoot/EA8/EA3/EA4/EA12/EA1772.html", "230.png", "E827", "0", "", "DataType0","{077C2BAF-B0B6-4b1f-8D86-E3A5DDE6955C}");
+tocTab[tocTab.length] = new Array("0.8.3.4.12:5", "", "«datatype» SimplicialPolynomial", "EARoot/EA8/EA3/EA4/EA12/EA1773.html", "230.png", "E828", "0", "", "DataType0","{45BA6232-EF9A-4fd9-8F51-2AEBCF1FE50F}");

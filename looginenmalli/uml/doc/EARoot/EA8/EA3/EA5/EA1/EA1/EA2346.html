@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate geometry::GM_GeodesicString</title>
+<title>Coordinate geometry::GM_Geodesic</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_GeodesicString", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_Geodesic", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,79 +87,22 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{D631B6A3-DA76-4878-A036-1DC490F0B3B6}</td>
+			<td class="ObjectDetailsValue">{1371AD74-7060-4024-ACD5-0246D9C75D93}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA2280.html">Fig 16: Linear and Geodetic Interpolation</a>, <a href="EA2278.html">Fig 15: Curve Segments </a>, <a href="EA2228.html">Context Diagram: GM_Geodesic</a>, <a href="EA2230.html">Context Diagram: GM_GeodesicString</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2281.html">Fig 16: Linear and Geodetic Interpolation</a>, <a href="EA2279.html">Fig 15: Curve Segments </a>, <a href="EA2229.html">Context Diagram: GM_Geodesic</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">A GM_GeodesicString consists of sequence of geodesic segments. The class essentially combines a Sequence#lt;GM_Geodesic#gt; into a single object, with the obvious savings of storage space. &lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">A GM_Geodesic consists of two distinct positions joined by a geodesic curve. The control points of a GM_Geodesic shall all lie on the geodesic between its start point and end point. Between these two points, a geodesic curve defined from the ellipsoid or geoid model used by the coordinate reference system may be used to interpolate other positions. Any other point in the controlPoint array must fall on this geodesic.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-<div class="ItemBody" id="AttributesTable">
-	<table border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="100%" class="TableHeading">Attribute</td>
-		</tr>
-						<tr>
-				<td width="100%" class="TableRow">
-					<i>Public <a href="EA2355.html">GM_PointArray</a></i><br /><strong>&nbsp;&nbsp;controlPoint</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3111')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3111" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes3111_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes3111_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes3111_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>
-	</table>
-</div>
 <div class="ItemBody" id="OperationsTable">
 	<table border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -168,56 +111,32 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>asGM_Geodesic</strong>():Sequence&lt;GM_Geodesic&gt;
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3112" onclick="parent.toggleDiv('detailsDIVOperations3112','DetailsImageOperations3112')" />Details:
-						<div id="detailsDIVOperations3112" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>GM_GeodesicString</strong>(					<a href="#" onclick="parent.toggleData('param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}" border="0" />points[2..*]: <a href="EA2361.html">GM_Position</a></a>, 
+					<strong>GM_Geodesic</strong>(					<a href="#" onclick="parent.toggleData('param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}" border="0" />point [2]: <a href="EA2362.html">GM_Position</a></a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}00" style="display: none;">
+						<tr id="param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}01" style="display: none;">
+						<tr id="param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>inout</td>
 						</tr>
-						<tr id="param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}02" style="display: none;">
+						<tr id="param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{CE0CEC8A-69EB-4e37-81B3-AA32BB71CFE8}03" style="display: none;">
+						<tr id="param{DD7CC6BA-E4A7-4bba-8FB5-5C8214C0D1E1}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):<a href="EA2346.html">GM_GeodesicString</a>
+):<a href="EA2346.html">GM_Geodesic</a>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3113" onclick="parent.toggleDiv('detailsDIVOperations3113','DetailsImageOperations3113')" />Details:
-						<div id="detailsDIVOperations3113" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3119" onclick="parent.toggleDiv('detailsDIVOperations3119','DetailsImageOperations3119')" />Details:
+						<div id="detailsDIVOperations3119" class="DetailsDiv" >
 					<i>Sequential  </i>
 					<table>
 						<tr>
@@ -246,8 +165,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3114" onclick="parent.toggleDiv('detailsDIVScenario3114','DetailsImageScenario3114')" />Details:
-						<div id="detailsDIVScenario3114" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3120" onclick="parent.toggleDiv('detailsDIVScenario3120','DetailsImageScenario3120')" />Details:
+						<div id="detailsDIVScenario3120" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -277,14 +196,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2345.html">«type» GM_Geodesic</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA2491.html">«Abstract» GM_CurveSegment</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2347.html">«type» GM_GeodesicString</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
