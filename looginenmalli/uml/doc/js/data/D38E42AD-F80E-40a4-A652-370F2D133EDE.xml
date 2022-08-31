@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.8.5.1.1.8:1", "", "Fig 12: Building with operations", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2960.html", "175.png", "782", "0", "", "Logical diagram0","{B93BF52A-F1FA-4b31-8CE6-15C04048F97B}");
-tocTab[tocTab.length] = new Array("0.8.5.1.1.8:2", "", "«FeatureType» Building", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2963.html", "5.png", "E1147", "0", "", "Class0","{FB399D3F-C113-4ae4-94C3-D279C02070C3}");
-tocTab[tocTab.length] = new Array("0.8.5.1.1.8:3", "", "«DataType» Temperature", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2964.html", "5.png", "E1148", "0", "", "Class0","{54DDBAFE-90A8-4f9a-A7B1-0994B70C156E}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.8:1", "", "Fig 12: Building with operations", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2959.html", "175.png", "782", "0", "", "Logical diagram0","{B93BF52A-F1FA-4b31-8CE6-15C04048F97B}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.8:2", "", "«FeatureType» Building", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2962.html", "5.png", "E1147", "0", "", "Class0","{FB399D3F-C113-4ae4-94C3-D279C02070C3}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.8:3", "", "«DataType» Temperature", "EARoot/EA8/EA5/EA1/EA1/EA8/EA2963.html", "5.png", "E1148", "0", "", "Class0","{54DDBAFE-90A8-4f9a-A7B1-0994B70C156E}");

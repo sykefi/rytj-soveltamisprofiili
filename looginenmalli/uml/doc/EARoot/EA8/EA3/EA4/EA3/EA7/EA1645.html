@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Splines::CubicSpline</title>
+<title>Splines::NURB</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CubicSpline", " : "))</script>  : Public abstract  Interface</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("NURB", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -51,19 +51,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">Marko Kauppi</td>
+			<td class="ObjectDetailsValue">John Herring</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">1.0</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">1.0</td>
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue">Proposed</td>
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
@@ -87,43 +87,21 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{16A85D4A-6E77-49ca-8762-BEC62BD55423}</td>
+			<td class="ObjectDetailsValue">{C1C714CA-2731-4647-802F-585DCFB85038}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA1574.html">Figure 22 — Curve Interfaces</a>, <a href="EA1637.html">Figure 27 — Spline Curves</a>, <a href="../../EA14/EA1970.html">Context Diagram: CubicSpline</a>, <a href="../../EA14/EA1878.html">Splines</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA1573.html">Figure 22 — Curve Interfaces</a>, <a href="EA1636.html">Figure 27 — Spline Curves</a>, <a href="../../EA14/EA2031.html">Approximate Spline Curves</a>, <a href="../../EA14/EA1877.html">Splines</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Cubic splines are similar to line strings in that they are a sequence of segments each with its own defining function. A cubic spline uses the control points and a set of derivative parameters to define a piecewise 3rd degree polynomial interpolation. Unlike line-strings, the parameterization by arc length is not necessarily still a polynomial. Splines have two parameterizations that are used in this standard, the defining one (constructive parameter) and the one that has been reparameterized by arc length to satisfy the requirements in Curve. &lt;br/&gt;The function describing the curve must be C2, that is, have a continuous 1st and 2nd derivative at all points, and pass through the controlPoints in the order given. Between the control points, the curve segment is defined by a cubic polynomial. At each control point, the polynomial changes in such a manner that the 1st and 2nd derivative vectors are the same from either side. The control parameters record must contain vectorAtStart, and vectorAtEnd which are the unit tangent vectors at controlPoint[1] and controlPoint[n] where n = controlPoint.count. &lt;br/&gt;The restriction on &quot;vectorAtStart&quot; and &quot;vectorAtEnd&quot; reduce these sequences to a single tangent vector each. &lt;br/&gt;GM_CubicSpline::vectorAtStart : Vector \\ &quot;degree - 2&quot; is 1&lt;br/&gt;GM_CubicSpline::vectorAtEnd : Vector \\ &quot;degree - 2&quot; is 1&lt;br/&gt;&lt;br/&gt;NOTE The actual implementation of the cubic polynomials varies, but the curve so generated is guaranteed to be unique. See [2], [10], [12], [18], and [19] in the bibliography for examples of implementations. &lt;br/&gt;The interpolation mechanism for a GM_CubicSpline is &quot;cubicSpline&quot;.&lt;br/&gt;GM_CubicSpline::interpolation : GM_InterpolationMethod = &quot;cubicSpline&quot; &lt;br/&gt;&lt;br/&gt;The degree for a GM_CubicSpline is &quot;3&quot;.&lt;br/&gt;GM_CubicSpline::degree : Integer = &quot;3&quot;&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
-		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">persistence</td>
-				<td width="50%" class="TableRow" valign="top">persistent</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2657" onclick="parent.toggleDiv('detailsDIVScenario2657','DetailsImageScenario2657')" />Details:
-						<div id="detailsDIVScenario2657" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>
-	</table>
-</div>		<div class="ItemBody" id="ConstraintsTable">
+		<div class="ItemBody" id="ConstraintsTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 			  	<tr>
 					<td width="80%" class="TableHeading">Constraint</td>
@@ -131,14 +109,14 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Status</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">degee=3</td>
+					<td width="80%" class="TableRow">isRational=TRUE</td>
 					<td width="10%" class="TableRow">Invariant</td>
 					<td width="10%" class="TableRow">Approved</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints2658" onclick="parent.toggleDiv('detailsDIVConstraints2658','DetailsImageConstraints2658')" />Details:
-							<div id="detailsDIVConstraints2658" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints2663" onclick="parent.toggleDiv('detailsDIVConstraints2663','DetailsImageConstraints2663')" />Details:
+							<div id="detailsDIVConstraints2663" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -170,7 +148,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1647.html">PolynomialSpline</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1648.html">BSplineCurve</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.8.1", "1", "ISO 19101 Reference model", "EARoot/EA8/EA1/EA254.html", "4.png", "", "", "{7441951A-B0C9-46cd-AC57-DDB5CF00337A}", "Package");
-tocTab[tocTab.length] = new Array("0.8.2", "1", "ISO 19103 Conceptual schema language", "EARoot/EA8/EA2/EA675.html", "4.png", "", "", "{C8B11F12-0BC7-40a2-9D40-D6D56F701810}", "Package");
-tocTab[tocTab.length] = new Array("0.8.3", "1", "ISO 19107 Spatial schema", "EARoot/EA8/EA3/EA1384.html", "4.png", "", "", "{91C729BA-C323-43ea-A59B-843341F1F3A4}", "Package");
-tocTab[tocTab.length] = new Array("0.8.4", "1", "ISO 19108 Temporal schema", "EARoot/EA8/EA4/EA2650.html", "4.png", "", "", "{2D3D5D9F-B214-488a-AB05-B9A80E00A65A}", "Package");
-tocTab[tocTab.length] = new Array("0.8.5", "1", "ISO 19109 Rules for application schema", "EARoot/EA8/EA5/EA2801.html", "4.png", "", "", "{BC2A7FAE-4579-46e4-804C-8AADB274F280}", "Package");
-tocTab[tocTab.length] = new Array("0.8.6", "1", "ISO 19111 Referencing by coordinates", "EARoot/EA8/EA6/EA3271.html", "4.png", "", "", "{E3D74C6A-2938-4b6d-A30A-8261BCD71318}", "Package");
+tocTab[tocTab.length] = new Array("0.8.1", "1", "ISO 19101 Reference model", "EARoot/EA8/EA1/EA253.html", "4.png", "", "", "{7441951A-B0C9-46cd-AC57-DDB5CF00337A}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2", "1", "ISO 19103 Conceptual schema language", "EARoot/EA8/EA2/EA674.html", "4.png", "", "", "{C8B11F12-0BC7-40a2-9D40-D6D56F701810}", "Package");
+tocTab[tocTab.length] = new Array("0.8.3", "1", "ISO 19107 Spatial schema", "EARoot/EA8/EA3/EA1383.html", "4.png", "", "", "{91C729BA-C323-43ea-A59B-843341F1F3A4}", "Package");
+tocTab[tocTab.length] = new Array("0.8.4", "1", "ISO 19108 Temporal schema", "EARoot/EA8/EA4/EA2649.html", "4.png", "", "", "{2D3D5D9F-B214-488a-AB05-B9A80E00A65A}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5", "1", "ISO 19109 Rules for application schema", "EARoot/EA8/EA5/EA2800.html", "4.png", "", "", "{BC2A7FAE-4579-46e4-804C-8AADB274F280}", "Package");
+tocTab[tocTab.length] = new Array("0.8.6", "1", "ISO 19111 Referencing by coordinates", "EARoot/EA8/EA6/EA3270.html", "4.png", "", "", "{E3D74C6A-2938-4b6d-A30A-8261BCD71318}", "Package");

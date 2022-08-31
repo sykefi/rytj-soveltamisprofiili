@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Collections::T</title>
+<title>Collections::TransfiniteSet</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("T", " : "))</script>  : Public   Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TransfiniteSet", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Medium</td>
+			<td class="ObjectDetailsValue">Easy</td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,113 +87,551 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F7BBF71F-BB21-45d5-A34A-1A95730E7735}</td>
+			<td class="ObjectDetailsValue">{C65F2510-BDDF-4ff4-BD6B-87DCD17A9A92}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA758.html">Collection View</a>, <a href="EA760.html">Context Diagram: Bag</a>, <a href="EA790.html">Sequence View</a>, <a href="EA794.html">Template Parameters</a>, <a href="EA778.html">Context Diagram: Set</a>, <a href="EA776.html">Context Diagram: Sequence</a>, <a href="EA780.html">Context Diagram: T</a>, <a href="EA792.html">Set view</a>, <a href="../EA5/EA834.html">Context Diagram: Any</a></td>
+			<td class="ObjectDetailsValue"><a href="EA757.html">Collection View</a>, <a href="EA781.html">Context Diagram: TransfiniteSet</a>, <a href="EA777.html">Context Diagram: Set</a>, <a href="EA767.html">Context Diagram: Collection</a>, <a href="EA753.html">19103 revision - TransfiniteSet</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">This class is defined to deal with some UML software modeling glitches. In this standard, T is used as a parameter (of type &quot;class&quot;) to a parameterized class (often called a template). &quot;T&quot; is used to show the relationship between the parameterized class and instances of its type-valued parameters. &lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;TransfiniteSet#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;includes#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;element#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;TransfiniteSet#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;contains#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;element#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Bag#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;excluding#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;object#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Bag#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;including#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;object#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Set#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;sum#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;Return#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Set#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;including#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;object#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Set#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;excluding#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;object#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Sequence#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;at#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;Return#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Sequence#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;prepend#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;element#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;Sequence#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;append#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;element#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;#lt;NameSpace#gt;ISO 19103 Conceptual Schema Language#lt;/NameSpace#gt;&lt;br/&gt;#lt;Class#gt;CircularSequence#lt;/Class#gt;&lt;br/&gt;#lt;Operation#gt;asSequence#lt;/Operation#gt;&lt;br/&gt;#lt;Parameter#gt;firstObject#lt;/Parameter#gt;&lt;br/&gt;#lt;Type#gt;T#lt;/Type#gt;&lt;br/&gt;#lt;UsedBy#gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Transfinite set is the implementation of a mathematical set. Normally, sets in software implementation are finite, but in mathematics they are often infinite. Since most of the behavior of wither type of set can be defined by the same operations protocols, we list them here. &lt;br/&gt;In Implementations, infinite sets (instances of TransfiniteSet, but not of set) are most often defined by the Boolean operation &quot;includes&quot; which test for the inclusion of a particular &quot;T.&quot;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA806.html">Sequence</a><br />
-						Interface &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> element<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1453" onclick="parent.toggleDiv('detailsDIVLink1453','DetailsImageLink1453')" />Details:
-							<div id="detailsDIVLink1453" class="DetailsDiv" >
-							&nbsp;
-							</div>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>contains</strong>(					<a href="#" onclick="parent.toggleData('param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}" border="0" />set: TransfiniteSet&lt;T&gt;</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2E266553-9BB1-4bbd-9EEA-AE3A93C29166}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1461" onclick="parent.toggleDiv('detailsDIVOperations1461','DetailsImageOperations1461')" />Details:
+						<div id="detailsDIVOperations1461" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
 						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA798.html">Bag</a><br />
-						Interface &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> element<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1454" onclick="parent.toggleDiv('detailsDIVLink1454','DetailsImageLink1454')" />Details:
-							<div id="detailsDIVLink1454" class="DetailsDiv" >
-							&nbsp;
-							</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>contains</strong>(					<a href="#" onclick="parent.toggleData('param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}" border="0" />element: <a href="EA807.html">T</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C271FCB6-6DB4-49bc-B395-7693C88EBFC6}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1462" onclick="parent.toggleDiv('detailsDIVOperations1462','DetailsImageOperations1462')" />Details:
+						<div id="detailsDIVOperations1462" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
 						</div>
-					</td>
-				</tr>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>difference</strong>(					<a href="#" onclick="parent.toggleData('param{2E47F7B6-96A3-47a6-82A8-B39436C30837}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{2E47F7B6-96A3-47a6-82A8-B39436C30837}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{2E47F7B6-96A3-47a6-82A8-B39436C30837}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2E47F7B6-96A3-47a6-82A8-B39436C30837}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{2E47F7B6-96A3-47a6-82A8-B39436C30837}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{2E47F7B6-96A3-47a6-82A8-B39436C30837}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):TransfiniteSet&lt;T&gt;
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1463" onclick="parent.toggleDiv('detailsDIVOperations1463','DetailsImageOperations1463')" />Details:
+						<div id="detailsDIVOperations1463" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>equals</strong>(					<a href="#" onclick="parent.toggleData('param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{B17AF47D-A9DD-4e20-BF6F-91FEED810417}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1464" onclick="parent.toggleDiv('detailsDIVOperations1464','DetailsImageOperations1464')" />Details:
+						<div id="detailsDIVOperations1464" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>includes</strong>(					<a href="#" onclick="parent.toggleData('param{31326D58-4676-4c7b-A2D0-732E46328AD8}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{31326D58-4676-4c7b-A2D0-732E46328AD8}" border="0" />element: <a href="EA807.html">T</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{31326D58-4676-4c7b-A2D0-732E46328AD8}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{31326D58-4676-4c7b-A2D0-732E46328AD8}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{31326D58-4676-4c7b-A2D0-732E46328AD8}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{31326D58-4676-4c7b-A2D0-732E46328AD8}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1465" onclick="parent.toggleDiv('detailsDIVOperations1465','DetailsImageOperations1465')" />Details:
+						<div id="detailsDIVOperations1465" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>includesAll</strong>(					<a href="#" onclick="parent.toggleData('param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{69C1A33A-3C34-426d-A5AA-E8702E4C7580}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1466" onclick="parent.toggleDiv('detailsDIVOperations1466','DetailsImageOperations1466')" />Details:
+						<div id="detailsDIVOperations1466" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>intersection</strong>(					<a href="#" onclick="parent.toggleData('param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{02D4E0AB-D829-4e2d-9EAE-479CBF1D5574}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):TransfiniteSet&lt;T&gt;
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1467" onclick="parent.toggleDiv('detailsDIVOperations1467','DetailsImageOperations1467')" />Details:
+						<div id="detailsDIVOperations1467" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>intersects</strong>(					<a href="#" onclick="parent.toggleData('param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9BFE32BF-C9BD-4032-8769-BB4C1FB26565}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1468" onclick="parent.toggleDiv('detailsDIVOperations1468','DetailsImageOperations1468')" />Details:
+						<div id="detailsDIVOperations1468" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>isEmpty</strong>():Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1469" onclick="parent.toggleDiv('detailsDIVOperations1469','DetailsImageOperations1469')" />Details:
+						<div id="detailsDIVOperations1469" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>notEmpty</strong>():Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1470" onclick="parent.toggleDiv('detailsDIVOperations1470','DetailsImageOperations1470')" />Details:
+						<div id="detailsDIVOperations1470" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>subSet</strong>(					<a href="#" onclick="parent.toggleData('param{5E1CC361-779E-4745-9BB9-E417FD44DF39}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{5E1CC361-779E-4745-9BB9-E417FD44DF39}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{5E1CC361-779E-4745-9BB9-E417FD44DF39}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5E1CC361-779E-4745-9BB9-E417FD44DF39}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{5E1CC361-779E-4745-9BB9-E417FD44DF39}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{5E1CC361-779E-4745-9BB9-E417FD44DF39}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Boolean
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1471" onclick="parent.toggleDiv('detailsDIVOperations1471','DetailsImageOperations1471')" />Details:
+						<div id="detailsDIVOperations1471" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>symmetricDifference</strong>(					<a href="#" onclick="parent.toggleData('param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}" border="0" />set: TransfiniteSet&lt;T&gt;</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{487DA8ED-EF93-4f8b-BCB0-0ABA86D1A65B}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):TransfiniteSet&lt;T&gt;
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1472" onclick="parent.toggleDiv('detailsDIVOperations1472','DetailsImageOperations1472')" />Details:
+						<div id="detailsDIVOperations1472" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>union</strong>(					<a href="#" onclick="parent.toggleData('param{8EB0868B-548B-421c-8808-73747320F53D}')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="param{8EB0868B-548B-421c-8808-73747320F53D}" border="0" />set: <a href="EA808.html">TransfiniteSet</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{8EB0868B-548B-421c-8808-73747320F53D}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8EB0868B-548B-421c-8808-73747320F53D}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>inout</td>
+						</tr>
+						<tr id="param{8EB0868B-548B-421c-8808-73747320F53D}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{8EB0868B-548B-421c-8808-73747320F53D}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):TransfiniteSet&lt;T&gt;
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations1473" onclick="parent.toggleDiv('detailsDIVOperations1473','DetailsImageOperations1473')" />Details:
+						<div id="detailsDIVOperations1473" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
 
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA807.html">Set</a><br />
-						Interface &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> elements<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1455" onclick="parent.toggleDiv('detailsDIVLink1455','DetailsImageLink1455')" />Details:
-							<div id="detailsDIVLink1455" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-<div class="ItemBody" id="TaggedValTable">
+		</table>
+</div><div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
 			<td width="50%" class="TableHeading">Tag</td>
@@ -205,8 +643,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1456" onclick="parent.toggleDiv('detailsDIVScenario1456','DetailsImageScenario1456')" />Details:
-						<div id="detailsDIVScenario1456" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1474" onclick="parent.toggleDiv('detailsDIVScenario1474','DetailsImageScenario1474')" />Details:
+						<div id="detailsDIVScenario1474" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -236,10 +674,10 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA839.html">Any</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA801.html">Collection</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

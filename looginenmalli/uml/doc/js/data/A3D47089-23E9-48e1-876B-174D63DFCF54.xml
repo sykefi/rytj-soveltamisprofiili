@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.9:1", "", "Other ISO Standards", "EARoot/EA9/EA3790.html", "188.png", "975", "0", "", "Custom diagram0","{ABA07864-628E-47a9-BA21-CC14B7CED17E}");
-tocTab[tocTab.length] = new Array("0.9.1", "1", "ISO 639 Language Codes", "EARoot/EA9/EA1/EA3798.html", "4.png", "", "", "{8164811E-58BC-45b2-A5FA-98550F96082B}", "Package");
+tocTab[tocTab.length] = new Array("0.9:1", "", "Other ISO Standards", "EARoot/EA9/EA3789.html", "188.png", "975", "0", "", "Custom diagram0","{ABA07864-628E-47a9-BA21-CC14B7CED17E}");
+tocTab[tocTab.length] = new Array("0.9.1", "1", "ISO 639 Language Codes", "EARoot/EA9/EA1/EA3797.html", "4.png", "", "", "{8164811E-58BC-45b2-A5FA-98550F96082B}", "Package");
