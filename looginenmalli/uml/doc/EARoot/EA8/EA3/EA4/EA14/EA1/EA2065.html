@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Graph::Edge</title>
+<title>Graph::DirectedEdge</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Edge", " : "))</script>  : Public   Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DirectedEdge", " : "))</script>  : Public   Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,11 +87,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{10EBC854-DA04-410e-93D5-81A94286E4CE}</td>
+			<td class="ObjectDetailsValue">{76CEACDA-A151-4035-BE7F-8B198FEBF697}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA6/EA1714.html">Main</a>, <a href="EA2061.html">Main 2</a>, <a href="EA2051.html">Context Diagram: Edge</a>, <a href="EA2053.html">Context Diagram: Graph</a>, <a href="EA2049.html">Context Diagram: DirectedEdge</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA6/EA1715.html">Main</a>, <a href="EA2062.html">Main 2</a>, <a href="EA2052.html">Context Diagram: Edge</a>, <a href="EA2058.html">Context Diagram: Path</a>, <a href="EA2050.html">Context Diagram: DirectedEdge</a></td>
 		</tr>
 	</table>
 	
@@ -99,7 +99,6 @@ function nameClassifier(name, separator)
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -111,43 +110,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../../../../EA2/EA2/EA1/EA3/EA4/EA1340.html">Number</a></i><br /><strong>&nbsp;&nbsp;cost</strong>
+					<i>Public <a href="../../../../EA2/EA2/EA1/EA3/EA4/EA1340.html">Integer</a></i><br /><strong>&nbsp;&nbsp;orientation</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2943')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2943" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2949')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2949" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes2943_00" style="display: none;">
+						<tr id="DetailsImageAttributes2949_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_01" style="display: none;">
+						<tr id="DetailsImageAttributes2949_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_02" style="display: none;">
+						<tr id="DetailsImageAttributes2949_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_03" style="display: none;">
+						<tr id="DetailsImageAttributes2949_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_04" style="display: none;">
+						<tr id="DetailsImageAttributes2949_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_05" style="display: none;">
+						<tr id="DetailsImageAttributes2949_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes2943_06" style="display: none;">
+						<tr id="DetailsImageAttributes2949_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes2943_07" style="display: none;">
+							<tr id="DetailsImageAttributes2949_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -169,40 +168,30 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2066.html">Graph</a><br />
+						<a href="EA2069.html">Path</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> edge<br />
+						<strong>Name:</strong> part<br />
 						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
+						<strong>Name:</strong> path<br />
 						&nbsp;	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2944" onclick="parent.toggleDiv('detailsDIVLink2944','DetailsImageLink2944')" />Details:
-							<div id="detailsDIVLink2944" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2950" onclick="parent.toggleDiv('detailsDIVLink2950','DetailsImageLink2950')" />Details:
+							<div id="detailsDIVLink2950" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2064.html">DirectedEdge</a><br />
+						<a href="EA2066.html">Edge</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -216,8 +205,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2945" onclick="parent.toggleDiv('detailsDIVLink2945','DetailsImageLink2945')" />Details:
-							<div id="detailsDIVLink2945" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2951" onclick="parent.toggleDiv('detailsDIVLink2951','DetailsImageLink2951')" />Details:
+							<div id="detailsDIVLink2951" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -238,8 +227,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2946" onclick="parent.toggleDiv('detailsDIVScenario2946','DetailsImageScenario2946')" />Details:
-						<div id="detailsDIVScenario2946" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2952" onclick="parent.toggleDiv('detailsDIVScenario2952','DetailsImageScenario2952')" />Details:
+						<div id="detailsDIVScenario2952" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -269,7 +258,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA8/EA1754.html">Edge</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA8/EA1754.html">DirectedEdge</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

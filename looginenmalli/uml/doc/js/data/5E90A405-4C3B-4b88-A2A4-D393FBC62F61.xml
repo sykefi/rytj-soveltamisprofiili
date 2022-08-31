@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.5.1.1.3:1", "", "Fig 34: Mine and ore-grade", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2866.html", "176.png", "772", "0", "", "Package diagram0","{F1C7AA3B-28F1-48ef-A52C-0E1D6696DB51}");
-tocTab[tocTab.length] = new Array("0.8.5.1.1.3:2", "", "Fig 35: Water gauging", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2868.html", "176.png", "773", "0", "", "Package diagram0","{44ED2AD3-D373-45e8-9FF5-527204AAC319}");
-tocTab[tocTab.length] = new Array("0.8.5.1.1.3.1", "1", "«ApplicationSchema» Mine", "EARoot/EA8/EA5/EA1/EA1/EA3/EA1/EA2880.html", "4.png", "", "", "{61FA1B19-CB35-4ffa-8663-5536BA7497BA}", "Package");
-tocTab[tocTab.length] = new Array("0.8.5.1.1.3.2", "1", "«ApplicationSchema» Water gauging", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2/EA2882.html", "4.png", "", "", "{A1754AB9-E14E-4dd4-BA5B-75503C839E5D}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.3:1", "", "Fig 34: Mine and ore-grade", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2867.html", "176.png", "772", "0", "", "Package diagram0","{F1C7AA3B-28F1-48ef-A52C-0E1D6696DB51}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.3:2", "", "Fig 35: Water gauging", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2869.html", "176.png", "773", "0", "", "Package diagram0","{44ED2AD3-D373-45e8-9FF5-527204AAC319}");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.3.1", "1", "«ApplicationSchema» Mine", "EARoot/EA8/EA5/EA1/EA1/EA3/EA1/EA2881.html", "4.png", "", "", "{61FA1B19-CB35-4ffa-8663-5536BA7497BA}", "Package");
+tocTab[tocTab.length] = new Array("0.8.5.1.1.3.2", "1", "«ApplicationSchema» Water gauging", "EARoot/EA8/EA5/EA1/EA1/EA3/EA2/EA2883.html", "4.png", "", "", "{A1754AB9-E14E-4dd4-BA5B-75503C839E5D}", "Package");

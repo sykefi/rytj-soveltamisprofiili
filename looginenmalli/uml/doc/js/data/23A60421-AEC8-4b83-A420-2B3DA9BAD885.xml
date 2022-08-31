@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.2.2:1", "", "19103 Main", "EARoot/EA8/EA2/EA2/EA1000.html", "175.png", "168", "0", "", "Logical diagram0","{AB78A7E2-6EA7-4b00-BE18-F0E9C0630DCD}");
-tocTab[tocTab.length] = new Array("0.8.2.2:2", "", "Context Diagram: Package Clients of Basic Types", "EARoot/EA8/EA2/EA2/EA1002.html", "175.png", "170", "0", "", "Logical diagram0","{A9F596C5-3DD4-4f12-B205-9F1486F94994}");
-tocTab[tocTab.length] = new Array("0.8.2.2:3", "", "Context Diagram: Package Suppliers of Basic Types", "EARoot/EA8/EA2/EA2/EA1004.html", "175.png", "169", "0", "", "Logical diagram0","{E691993E-6423-49c4-8FB7-943207C35751}");
-tocTab[tocTab.length] = new Array("0.8.2.2.1", "1", "Basic Types", "EARoot/EA8/EA2/EA2/EA1/EA1022.html", "4.png", "", "", "{1FB0D41E-1F02-45ce-8E45-3B44F5D50F14}", "Package");
+tocTab[tocTab.length] = new Array("0.8.2.2:1", "", "19103 Main", "EARoot/EA8/EA2/EA2/EA1001.html", "175.png", "168", "0", "", "Logical diagram0","{AB78A7E2-6EA7-4b00-BE18-F0E9C0630DCD}");
+tocTab[tocTab.length] = new Array("0.8.2.2:2", "", "Context Diagram: Package Clients of Basic Types", "EARoot/EA8/EA2/EA2/EA1003.html", "175.png", "170", "0", "", "Logical diagram0","{A9F596C5-3DD4-4f12-B205-9F1486F94994}");
+tocTab[tocTab.length] = new Array("0.8.2.2:3", "", "Context Diagram: Package Suppliers of Basic Types", "EARoot/EA8/EA2/EA2/EA1005.html", "175.png", "169", "0", "", "Logical diagram0","{E691993E-6423-49c4-8FB7-943207C35751}");
+tocTab[tocTab.length] = new Array("0.8.2.2.1", "1", "Basic Types", "EARoot/EA8/EA2/EA2/EA1/EA1023.html", "4.png", "", "", "{1FB0D41E-1F02-45ce-8E45-3B44F5D50F14}", "Package");
