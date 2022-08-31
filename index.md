@@ -1,6 +1,6 @@
 ---
 layout: "default"
-description: ""
+description: " "
 id: "johdanto"
 ---
 # RYTJ-soveltamisprofiili
