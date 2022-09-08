@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.8.3.5.2.3:1", "", "Context Diagram: TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2643.html", "175.png", "705", "0", "", "Logical diagram0","{0513B3A5-3976-4795-BB27-B83B63B30CD9}");
-tocTab[tocTab.length] = new Array("0.8.3.5.2.3:2", "", "Fig 34: TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2645.html", "175.png", "704", "0", "", "Logical diagram0","{6DE81E20-6FD2-4142-8021-66E904AB0AA5}");
-tocTab[tocTab.length] = new Array("0.8.3.5.2.3:3", "", "«interface» TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2649.html", "8.png", "E1024", "0", "", "Interface0","{9B1F4F07-14B5-468a-B20B-B2B565DC831B}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.3:1", "", "Context Diagram: TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2642.html", "175.png", "705", "0", "", "Logical diagram0","{0513B3A5-3976-4795-BB27-B83B63B30CD9}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.3:2", "", "Fig 34: TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2644.html", "175.png", "704", "0", "", "Logical diagram0","{6DE81E20-6FD2-4142-8021-66E904AB0AA5}");
+tocTab[tocTab.length] = new Array("0.8.3.5.2.3:3", "", "«interface» TP_Object", "EARoot/EA8/EA3/EA5/EA2/EA3/EA2648.html", "8.png", "E1024", "0", "", "Interface0","{9B1F4F07-14B5-468a-B20B-B2B565DC831B}");

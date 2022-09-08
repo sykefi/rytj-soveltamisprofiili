@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Systems::DateTimeTemporalCS</title>
+<title>Coordinate Systems::TemporalCountCS</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DateTimeTemporalCS", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TemporalCountCS", " : "))</script>  : Public  &lt;&lt;interface&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{59812091-31AF-4273-B307-1B80619B12DC}</td>
+			<td class="ObjectDetailsValue">{45DCEAD8-9811-402b-9423-473FCE71F475}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3332.html">Coordinate Systems</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3331.html">Coordinate Systems</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">one-dimensional coordinate system used to record time in dateTime representation as defined in ISO 8601.&lt;br/&gt;Note: A DateTimeTemporalCS shall have one axis association. It does not use axisUnitID; the temporal quantities are defined through the ISO 8601 representation.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">one-dimensional coordinate system used to record time as an integer count&lt;br/&gt;Note: A TemporalCountCS shall have one axis association.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -110,30 +110,15 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Status</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">coordinateType=dateTime</td>
+					<td width="80%" class="TableRow">coordinateType=integer</td>
 					<td width="10%" class="TableRow">Invariant</td>
 					<td width="10%" class="TableRow">Proposed</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints4496" onclick="parent.toggleDiv('detailsDIVConstraints4496','DetailsImageConstraints4496')" />Details:
-							<div id="detailsDIVConstraints4496" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints4509" onclick="parent.toggleDiv('detailsDIVConstraints4509','DetailsImageConstraints4509')" />Details:
+							<div id="detailsDIVConstraints4509" class="DetailsDiv" >
 							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">axis->forAll(count(axisUnitID)=0)</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Proposed</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints4497" onclick="parent.toggleDiv('detailsDIVConstraints4497','DetailsImageConstraints4497')" />Details:
-							<div id="detailsDIVConstraints4497" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">axis.axisUnitID shall not be used&lt;br/&gt;</div>
-
 							</div>
 						</div>
 					</td>
@@ -164,7 +149,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3349.html">«interface» TemporalCS</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3348.html">«interface» TemporalCS</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

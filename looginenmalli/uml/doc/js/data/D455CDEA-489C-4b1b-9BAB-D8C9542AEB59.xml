@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.8.3.4.4.4:1", "", "Figure 30 — Conic Surfaces", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1696.html", "175.png", "359", "0", "", "Logical diagram0","{18B5C97F-79DD-49ae-B3B8-69C3C969D10E}");
-tocTab[tocTab.length] = new Array("0.8.3.4.4.4:2", "", "«interface» Cone", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1699.html", "8.png", "E786", "0", "", "Interface0","{4CA04C03-E7D5-4cf7-AB56-7E2C4194BCF6}");
-tocTab[tocTab.length] = new Array("0.8.3.4.4.4:3", "", "«interface» Cylinder", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1700.html", "8.png", "E787", "0", "", "Interface0","{82B9D1B2-CEC8-4bb2-8563-8DBB2ED0599D}");
-tocTab[tocTab.length] = new Array("0.8.3.4.4.4:4", "", "«interface» Sphere", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1701.html", "8.png", "E788", "0", "", "Interface0","{84686FA6-BC3C-4801-9911-757850C7C648}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.4:1", "", "Figure 30 — Conic Surfaces", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1695.html", "175.png", "359", "0", "", "Logical diagram0","{18B5C97F-79DD-49ae-B3B8-69C3C969D10E}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.4:2", "", "«interface» Cone", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1698.html", "8.png", "E786", "0", "", "Interface0","{4CA04C03-E7D5-4cf7-AB56-7E2C4194BCF6}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.4:3", "", "«interface» Cylinder", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1699.html", "8.png", "E787", "0", "", "Interface0","{82B9D1B2-CEC8-4bb2-8563-8DBB2ED0599D}");
+tocTab[tocTab.length] = new Array("0.8.3.4.4.4:4", "", "«interface» Sphere", "EARoot/EA8/EA3/EA4/EA4/EA4/EA1700.html", "8.png", "E788", "0", "", "Interface0","{84686FA6-BC3C-4801-9911-757850C7C648}");
