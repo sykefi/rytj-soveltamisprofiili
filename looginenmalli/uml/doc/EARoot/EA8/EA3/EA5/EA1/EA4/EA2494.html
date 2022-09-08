@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Geometric primitive::GM_OrientablePrimitive</title>
+<title>Geometric primitive::GM_OrientableSurface</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_OrientablePrimitive", " : "))</script>  : Public abstract &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_OrientableSurface", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,81 +87,56 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{C722E72E-0437-445f-BB42-8980845F1D1A}</td>
+			<td class="ObjectDetailsValue">{2332A5B7-5A2E-429e-B185-A4D4087640B9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA2179.html">Fig 05: Geometry basic classes </a>, <a href="EA2475.html">Fig 08: GM_Primitive</a>, <a href="EA2481.html">Fig 11: GM_Curve </a>, <a href="EA2483.html">Fig 12: GM_Surface </a>, <a href="EA2479.html">Fig 10: GM_OrientedPrimitive</a>, <a href="EA2445.html">Context Diagram: GM_OrientableCurve</a>, <a href="EA2447.html">Context Diagram: GM_OrientablePrimitive</a>, <a href="EA2449.html">Context Diagram: GM_OrientableSurface</a>, <a href="EA2453.html">Context Diagram: GM_Primitive</a>, <a href="../EA5/EA2513.html">Geometry Root</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA2178.html">Fig 05: Geometry basic classes </a>, <a href="../EA3/EA2413.html">Fig 26: Composite</a>, <a href="../EA3/EA2419.html">Fig 29: Composite Surface View</a>, <a href="../EA3/EA2409.html">Context Diagram: GM_CompositeSurface</a>, <a href="EA2474.html">Fig 08: GM_Primitive</a>, <a href="EA2482.html">Fig 12: GM_Surface </a>, <a href="EA2478.html">Fig 10: GM_OrientedPrimitive</a>, <a href="EA2448.html">Context Diagram: GM_OrientableSurface</a>, <a href="EA2464.html">Context Diagram: GM_Surface</a>, <a href="../EA5/EA2512.html">Geometry Root</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">An orientable primitives (Figure 10) are those that can be mirrored into new geometric objects in terms of their internal local coordinate systems (manifold charts). For curves, the orientation reflects the direction in which the curve is traversed, that is, the sense of its parameterization. When used as boundary curves, the surface being bounded is to the &quot;left&quot; of the oriented curve. For surfaces, the orientation reflects from which direction the local coordinate system can be viewed as right handed, the &quot;top&quot; or the surface being the direction of a completing z-axis that would form a right-handed system. When used as a boundary surface, the bounded solid is &quot;below&quot; the surface. The orientation of points and solids has no immediate geometric interpretation in 3-dimensional space.&lt;br/&gt;GM_OrientablePrimitive objects are essentially references to geometric primitives that carry an &quot;orientation&quot; reversal flag (either &quot;+&quot; or &quot;-&quot;) that determines whether this primitive agrees or disagrees with the orientation of the referenced object. &lt;br/&gt;NOTE There are several reasons for subclassing the &quot;positive&quot; primitives under the orientable primitives. First is a matter of the semantics of subclassing. Subclassing is assumed to be a &quot;is type of&quot; hierarchy. In the view used, the &quot;positive&quot; primitive is simply the orientable one with the positive orientation. If the opposite view were taken, and orientable primitives were subclassed under the &quot;positive&quot; primitive, then by subclassing logic, the &quot;negative&quot; primitive would have to hold the same sort of geometric description that the &quot;positive&quot; primitive does. The only viable solution would be to separate &quot;negative&quot; primitives under the geometric root as being some sort of reference to their opposite. This adds a great deal of complexity to the subclassing tree.&#160;&#160;To minimize the number of objects and to bypass this logical complexity, positively oriented primitives are self-referential (are instances of the corresponding primitive subtype) while negatively oriented primitives are not. &lt;br/&gt;Orientable primitives are often denoted by a sign (for the orientation) and a base geometry (curve or surface). The sign datatype is defined in ISO 19103. If &quot;c&quot; is a curve, then &quot;#lt;+, c#gt;&quot; is its positive orientable curve and &quot;#lt;-, c#gt;&quot; is its negative orientable curve. In most cases, leaving out the syntax for record &quot;#lt; , #gt;&quot; does not lead to confusion, so &quot;#lt;+, c#gt;&quot; may be written as &quot;+c&quot; or simply &quot;c&quot;, and &quot;#lt;-, c#gt;&quot; as &quot;-c&quot;. Curve space arithmetic can be performed if the curves align properly, so that:&lt;br/&gt;For c, d : GM_OrientableCurves such that c.endPoint = d.startPoint then&lt;br/&gt;( c + d ) ==: GM_CompositeCurve = #lt; c, d #gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">GM_OrientableSurface consists of a surface and an orientation inherited from GM_OrientablePrimitive. If the orientation is &quot;+&quot;, then the GM_OrientableSurface is a GM_Surface. If the orientation is &quot;-&quot;, then the GM_OrientableSurface is a reference to a GM_Surface with an upNormal that reverses the direction for this GM_OrientableSurface, the sense of &quot;the top of the surface&quot; (see 6.4.33.2).&lt;br/&gt;GM_OrientableSurface:&lt;br/&gt;{Orientation = &quot;+&quot; implies primitive = self};&lt;br/&gt;{(Orientation = &quot;-&quot; and TransfiniteSet::contains(p : DirectPosition)) &lt;br/&gt;&#160;&#160;implies (primitive.upNormal(p) = - self.upNormal(p))};&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-<div class="ItemBody" id="AttributesTable">
+<div class="ItemBody" id="OperationsTable">
 	<table border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
-			<td width="100%" class="TableHeading">Attribute</td>
+			<td width="100%" class="TableHeading">Operation</td>
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../../../../EA2/EA2/EA1/EA3/EA2/EA1311.html">Sign</a></i><br /><strong>&nbsp;&nbsp;orientation</strong>
+					<i>Public</i><br />
+					<strong>boundary</strong>():<a href="EA2503.html">GM_SurfaceBoundary</a>
 				</td>
 			</tr>
 			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes3314')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes3314" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes3314_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3329" onclick="parent.toggleDiv('detailsDIVOperations3329','DetailsImageOperations3329')" />Details:
+						<div id="detailsDIVOperations3329" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
 							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes3314_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes3314_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
 						</tr>
 					</table>
 					
 					
-						&nbsp;
-						
+					
+						</div>
+					</div>
 				</td>
 			</tr>
-	</table>
-</div>
-		<div class="ItemBody" id="AssociationsFromTable">
+
+		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="40%" class="TableHeading">Element</td>
@@ -170,22 +145,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2497.html">«type» GM_Primitive</a><br />
+						<a href="../EA3/EA2433.html">«type» GM_CompositeSurface</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> primitive<br />
+						<strong>Name:</strong> generator<br />
 						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> proxy<br />
+						<strong>Name:</strong> composite<br />
 						&nbsp;	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3315" onclick="parent.toggleDiv('detailsDIVLink3315','DetailsImageLink3315')" />Details:
-							<div id="detailsDIVLink3315" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3330" onclick="parent.toggleDiv('detailsDIVLink3330','DetailsImageLink3330')" />Details:
+							<div id="detailsDIVLink3330" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -206,8 +181,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3316" onclick="parent.toggleDiv('detailsDIVScenario3316','DetailsImageScenario3316')" />Details:
-						<div id="detailsDIVScenario3316" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3331" onclick="parent.toggleDiv('detailsDIVScenario3331','DetailsImageScenario3331')" />Details:
+						<div id="detailsDIVScenario3331" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -222,14 +197,14 @@ function nameClassifier(name, separator)
 					<td width="10%" class="TableHeading">Status</td>
 				</tr>
 				<tr>
-					<td width="80%" class="TableRow">(orientation = "+") =  (primitive = self )</td>
+					<td width="80%" class="TableRow">primitive.isTypeOf(GM_Surface)</td>
 					<td width="10%" class="TableRow">Invariant</td>
 					<td width="10%" class="TableRow">Approved</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints3317" onclick="parent.toggleDiv('detailsDIVConstraints3317','DetailsImageConstraints3317')" />Details:
-							<div id="detailsDIVConstraints3317" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints3332" onclick="parent.toggleDiv('detailsDIVConstraints3332','DetailsImageConstraints3332')" />Details:
+							<div id="detailsDIVConstraints3332" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -261,28 +236,28 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2495.html">«type» GM_OrientableSurface</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2497.html">«type» GM_Primitive</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2493.html">«type» GM_OrientablePrimitive</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2493.html">«type» GM_OrientableCurve</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA2433.html">«type» GM_CompositeSurface</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA4/EA2/EA1548.html">Orientable</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2502.html">«type» GM_Surface</a></td>
+					<td width="10%" class="TableRow" valign="top">Class</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../EA4/EA2/EA1549.html">Surface</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

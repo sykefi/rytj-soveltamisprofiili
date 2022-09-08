@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coordinate Operations::CC_OperationParameterGroup</title>
+<title>Coordinate Operations::CC_OperationParameterValue</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CC_OperationParameterGroup", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CC_OperationParameterValue", " : "))</script>  : Public  &lt;&lt;type&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -87,14 +87,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{506D380C-02BB-4cd5-BC64-F69202202C2F}</td>
+			<td class="ObjectDetailsValue">{4BE7C002-3336-4ce9-BE46-52204622F7E8}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3612.html">Part 2</a>, <a href="EA3596.html">Context Diagram: CC_OperationParameterGroup</a>, <a href="EA3602.html">Context Diagram: CC_ParameterValueGroup</a></td>
+			<td class="ObjectDetailsValue"><a href="EA3611.html">Part 2</a>, <a href="EA3597.html">Context Diagram: CC_OperationParameterValue</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">The definition of a group of related parameters used by a coordinate operation method.&lt;br/&gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">A parameter value, ordered sequence of values, or reference to a file of parameter values.&lt;br/&gt;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -111,43 +111,43 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="../../../EA2/EA2/EA1/EA3/EA4/EA1340.html">Integer</a></i><br /><strong>&nbsp;&nbsp;maximumOccurs</strong>
+					<i>Public <a href="EA3629.html">CC_ParameterValue</a></i><br /><strong>&nbsp;&nbsp;parameterValue</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes5395')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes5395" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes5414')" style="text-decoration: none; color: #000000;"><img src="../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes5414" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes5395_00" style="display: none;">
+						<tr id="DetailsImageAttributes5414_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_01" style="display: none;">
+						<tr id="DetailsImageAttributes5414_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_02" style="display: none;">
+						<tr id="DetailsImageAttributes5414_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_03" style="display: none;">
+						<tr id="DetailsImageAttributes5414_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_04" style="display: none;">
+						<tr id="DetailsImageAttributes5414_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
-							<td>Range:0 to 1</td>
+							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_05" style="display: none;">
+						<tr id="DetailsImageAttributes5414_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes5395_06" style="display: none;">
+						<tr id="DetailsImageAttributes5414_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes5395_07" style="display: none;">
+							<tr id="DetailsImageAttributes5414_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -160,7 +160,7 @@ function nameClassifier(name, separator)
 			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
 		</td>
 		<td>
-			The maximum number of times that values for this parameter group or parameter can be included. If this attribute is omitted, the maximum number is one.&lt;br/&gt;&lt;br/&gt;
+			Value of the coordinate operation parameter.&lt;br/&gt;
 		</td>
 	</tr>
 </table></div>
@@ -179,45 +179,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3624.html">«type» CC_GeneralOperationParameter</a><br />
+						<a href="EA3626.html">«type» CC_OperationParameter</a><br />
 						Class &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> parameter<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> group<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5396" onclick="parent.toggleDiv('detailsDIVLink5396','DetailsImageLink5396')" />Details:
-							<div id="detailsDIVLink5396" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA3631.html">«type» CC_ParameterValueGroup</a><br />
-						Class &nbsp;
+						Association to the operation parameter that this is a value of. 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> value<br />
-						Non-navigable association from a Parameter Value Group that uses this Operation Parameter Group.
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> group<br />
-						Association to the operation parameter group for which this element provides parameter values. 	
+						Not-navigable association from a Parameter Value for this Operation Parameter. 	
 					</td>
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5397" onclick="parent.toggleDiv('detailsDIVLink5397','DetailsImageLink5397')" />Details:
-							<div id="detailsDIVLink5397" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5415" onclick="parent.toggleDiv('detailsDIVLink5415','DetailsImageLink5415')" />Details:
+							<div id="detailsDIVLink5415" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -238,8 +215,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5398" onclick="parent.toggleDiv('detailsDIVScenario5398','DetailsImageScenario5398')" />Details:
-						<div id="detailsDIVScenario5398" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5416" onclick="parent.toggleDiv('detailsDIVScenario5416','DetailsImageScenario5416')" />Details:
+						<div id="detailsDIVScenario5416" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Create a property type that requires that the instance is encoded inline (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -251,8 +228,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5399" onclick="parent.toggleDiv('detailsDIVScenario5399','DetailsImageScenario5399')" />Details:
-						<div id="detailsDIVScenario5399" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5417" onclick="parent.toggleDiv('detailsDIVScenario5417','DetailsImageScenario5417')" />Details:
+						<div id="detailsDIVScenario5417" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true | false<br />Default: false<br />Description: Identifies the type as an object collection.<br /></div>
 
 						</div>
@@ -264,8 +241,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5400" onclick="parent.toggleDiv('detailsDIVScenario5400','DetailsImageScenario5400')" />Details:
-						<div id="detailsDIVScenario5400" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5418" onclick="parent.toggleDiv('detailsDIVScenario5418','DetailsImageScenario5418')" />Details:
+						<div id="detailsDIVScenario5418" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: false<br />Default: false<br />Description: Surpress creation of a standard property type that supports inline or by-reference encoding (applies to ISO 19136:2007 encoding rule). Always set to false in INSPIRE.<br /></div>
 
 						</div>
@@ -277,8 +254,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5401" onclick="parent.toggleDiv('detailsDIVScenario5401','DetailsImageScenario5401')" />Details:
-						<div id="detailsDIVScenario5401" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5419" onclick="parent.toggleDiv('detailsDIVScenario5419','DetailsImageScenario5419')" />Details:
+						<div id="detailsDIVScenario5419" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
@@ -289,8 +266,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5402" onclick="parent.toggleDiv('detailsDIVScenario5402','DetailsImageScenario5402')" />Details:
-						<div id="detailsDIVScenario5402" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5420" onclick="parent.toggleDiv('detailsDIVScenario5420','DetailsImageScenario5420')" />Details:
+						<div id="detailsDIVScenario5420" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: iso19136_2007 | iso19139_2007 | iso19136_2007_INSPIRE_Extensions<br />Default: iso19136_2007_INSPIRE_Extensions<br />Description: XML Schema encoding rule to apply<br /></div>
 
 						</div>
@@ -321,14 +298,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3624.html">«type» CC_GeneralOperationParameter</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Strong</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA3624.html">«type» CC_GeneralOperationParameter</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3624.html">«type» CC_GeneralParameterValue</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

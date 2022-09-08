@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Geometric primitive::GM_Primitive</title>
+<title>Geometric primitive::GM_PrimitiveBoundary</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_Primitive", " : "))</script>  : Public abstract &lt;&lt;type&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("GM_PrimitiveBoundary", " : "))</script>  : Public abstract &lt;&lt;Abstract&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -67,7 +67,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Easy</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
@@ -87,283 +87,21 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{EC227332-2FDF-46db-9D30-50120B8055D5}</td>
+			<td class="ObjectDetailsValue">{496D5951-C524-48a6-9032-D2FA2D959E0A}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../EA2179.html">Fig 05: Geometry basic classes </a>, <a href="../EA3/EA2412.html">Fig 25: Geometry Complexes</a>, <a href="../EA3/EA2414.html">Fig 26: Composite</a>, <a href="../EA3/EA2398.html">Context Diagram: GM_Complex</a>, <a href="../EA3/EA2402.html">Context Diagram: GM_Composite</a>, <a href="EA2475.html">Fig 08: GM_Primitive</a>, <a href="EA2481.html">Fig 11: GM_Curve </a>, <a href="EA2483.html">Fig 12: GM_Surface </a>, <a href="EA2477.html">Fig 09: GM_Point</a>, <a href="EA2485.html">Fig 13: GM_Solid </a>, <a href="EA2479.html">Fig 10: GM_OrientedPrimitive</a>, <a href="EA2447.html">Context Diagram: GM_OrientablePrimitive</a>, <a href="EA2451.html">Context Diagram: GM_Point</a>, <a href="EA2453.html">Context Diagram: GM_Primitive</a>, <a href="EA2461.html">Context Diagram: GM_Solid</a>, <a href="../EA5/EA2511.html">Fig 06: GM_Object</a>, <a href="../EA5/EA2513.html">Geometry Root</a>, <a href="../../EA2/EA2534.html">Fig 33: Relation between geometry and topology</a>, <a href="../../EA2/EA2/EA2596.html">Fig 38: TP_Primitve Context Diagram</a>, <a href="../../EA2/EA2/EA2578.html">Context Diagram: TP_Primitive</a></td>
+			<td class="ObjectDetailsValue"><a href="EA2472.html">Fig 07: Geometry Boundary Data Types</a>, <a href="EA2466.html">Context Diagram: GM_SurfaceBoundary</a>, <a href="EA2438.html">Context Diagram: GM_CurveBoundary</a>, <a href="EA2462.html">Context Diagram: GM_SolidBoundary</a>, <a href="EA2454.html">Context Diagram: GM_PrimitiveBoundary</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">GM_Primitive (Figure 8) is the abstract root class of the geometric primitives. Its main purpose is to define the basic &quot;boundary&quot; operation that ties the primitives in each dimension together. A geometric primitive (GM_Primitive) is a geometric object that is not decomposed further into other primitives in the system. This includes curves and surfaces, even though they are composed of curve segments and surface patches, respectively. This composition is a strong aggregation: curve segments and surface patches cannot exist outside the context of a primitive.&lt;br/&gt;NOTE Most geometric primitives are decomposable infinitely many times. Adding a centre point to a line may split that line into two separate lines. A new curve drawn across a surface may divide that surface into two parts, each of which is a surface. This is the reason that the normal definition of primitive as &quot;non-decomposable&quot; is not plausible in a geometry model - the only non-decomposable object in geometry is a point.&lt;br/&gt;Any geometric object that is used to describe a feature is a collection of geometric primitives. A collection of geometric primitives may or may not be a geometric complex. Geometric complexes have additional properties such as closure by boundary operations and mutually exclusive component parts.&lt;br/&gt;GM_Primitive and GM_Complex share most semantics, in the meaning of operations, attributes and associations. There is an exception in that a GM_Primitive shall not contain its boundary (except in the trivial case of GM_Point where the boundary is empty), while a GM_Complex shall contain its boundary in all cases. This means that if an instantiated object implements GM_Object operations both as GM_Primitive and as a GM_Complex, the semantics of each set theoretic operation is determined by the its name resolution. Specifically, for a particular object such as GM_CompositeCurve, GM_Primitive::contains (returns FALSE for end points) is different from GM_Complex::contains (returns TRUE for end points). Further, if that object is cast as a GM_Primitive value and as a GM_Complex value, then the two values need not be equal as GM_Objects.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">The abstract class GM_Primitive boundary is the root for the various return types of the boundary operator for subtypes of GM_Primitive. Since points have no boundary, no special subclass is needed for their boundary.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
-			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-<div class="ItemBody" id="OperationsTable">
-	<table border="0" cellspacing="0" cellpadding="0" class="Table">
-		<tr>
-			<td width="100%" class="TableHeading">Operation</td>
-		</tr>
-						<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>boundary</strong>():<a href="EA2498.html">GM_PrimitiveBoundary</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3333" onclick="parent.toggleDiv('detailsDIVOperations3333','DetailsImageOperations3333')" />Details:
-						<div id="detailsDIVOperations3333" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
-			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public</i><br />
-					<strong>GM_Primitive</strong>(					<a href="#" onclick="parent.toggleData('param{26B1BC1E-C07B-4850-B2FD-11028E013255}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{26B1BC1E-C07B-4850-B2FD-11028E013255}" border="0" />e: <a href="../EA1/EA2343.html">GM_Envelope</a></a>, 
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{26B1BC1E-C07B-4850-B2FD-11028E013255}00" style="display: none;">
-							<td width="50"><strong>Default:</strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{26B1BC1E-C07B-4850-B2FD-11028E013255}01" style="display: none;">
-							<td width="50"><strong>Kind:</strong></td>
-							<td>inout</td>
-						</tr>
-						<tr id="param{26B1BC1E-C07B-4850-B2FD-11028E013255}02" style="display: none;">
-							<td width="50"><strong>Stereotype: </strong></td>
-							<td></td>
-						</tr>
-						<tr id="param{26B1BC1E-C07B-4850-B2FD-11028E013255}03" style="display: none;">
-							<td width="50"></td>
-							<td></td>
-						</tr>
-					</table>
-):<a href="EA2497.html">GM_Primitive</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations3334" onclick="parent.toggleDiv('detailsDIVOperations3334','DetailsImageOperations3334')" />Details:
-						<div id="detailsDIVOperations3334" class="DetailsDiv" >
-					<i>Sequential  </i>
-					<table>
-						<tr>
-							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
-							<td></td>
-						</tr>
-					</table>
-					
-					
-					
-						</div>
-					</div>
-				</td>
-			</tr>
-
-		</table>
-</div>		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA2/EA2/EA2637.html">«type» TP_Primitive</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> geometry<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> topology<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3335" onclick="parent.toggleDiv('detailsDIVLink3335','DetailsImageLink3335')" />Details:
-							<div id="detailsDIVLink3335" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2497.html">«type» GM_Primitive</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> containedPrimitive<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> containingPrimitive<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3336" onclick="parent.toggleDiv('detailsDIVLink3336','DetailsImageLink3336')" />Details:
-							<div id="detailsDIVLink3336" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">The subelement is restricted to be contained upon the super element in question. &lt;br/&gt;&lt;br/&gt;The dimension of the subelement must be less than that of the super element.&lt;br/&gt;&lt;br/&gt;GM_Primitive&lt;br/&gt;dimension()&#160;&#160;#gt;&#160;&#160;coincidentSubelement.dimension()+The &quot;Interior To&quot; association associates GM_Primitives which are by definition coincident with one another. This association will normally be empty when the GM_Primitives are within a GM_Complex, since in that case the boundary information is sufficient for most cases.&lt;br/&gt;GM_Primitive::coincidentSubelement [0..*] : Reference#lt;GM_Primitive#gt;&lt;br/&gt;GM_Primitive::superElement [0..*]&#160;&#160;: Reference#lt;GM_Primitive#gt;&lt;br/&gt;This association is constrained by the set theory operators and dimension operators defined at GM_Object. &lt;br/&gt;GM_Primitive:&lt;br/&gt;superElement-#gt;includes(p: GM_Primitive) = GM_Object::contains(p)&lt;br/&gt;dimension() #gt;= coincidentSubelement.dimension()&lt;br/&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA3/EA2430.html">«type» GM_Composite</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> generator<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> composite<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3337" onclick="parent.toggleDiv('detailsDIVLink3337','DetailsImageLink3337')" />Details:
-							<div id="detailsDIVLink3337" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2494.html">«type» GM_OrientablePrimitive</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> primitive<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> proxy<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3338" onclick="parent.toggleDiv('detailsDIVLink3338','DetailsImageLink3338')" />Details:
-							<div id="detailsDIVLink3338" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA2497.html">«type» GM_Primitive</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> containedPrimitive<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> containingPrimitive<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3339" onclick="parent.toggleDiv('detailsDIVLink3339','DetailsImageLink3339')" />Details:
-							<div id="detailsDIVLink3339" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">The subelement is restricted to be contained upon the super element in question. &lt;br/&gt;&lt;br/&gt;The dimension of the subelement must be less than that of the super element.&lt;br/&gt;&lt;br/&gt;GM_Primitive&lt;br/&gt;dimension()&#160;&#160;#gt;&#160;&#160;coincidentSubelement.dimension()+The &quot;Interior To&quot; association associates GM_Primitives which are by definition coincident with one another. This association will normally be empty when the GM_Primitives are within a GM_Complex, since in that case the boundary information is sufficient for most cases.&lt;br/&gt;GM_Primitive::coincidentSubelement [0..*] : Reference#lt;GM_Primitive#gt;&lt;br/&gt;GM_Primitive::superElement [0..*]&#160;&#160;: Reference#lt;GM_Primitive#gt;&lt;br/&gt;This association is constrained by the set theory operators and dimension operators defined at GM_Object. &lt;br/&gt;GM_Primitive:&lt;br/&gt;superElement-#gt;includes(p: GM_Primitive) = GM_Object::contains(p)&lt;br/&gt;dimension() #gt;= coincidentSubelement.dimension()&lt;br/&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA3/EA2428.html">«type» GM_Complex</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> complex<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> element<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3340" onclick="parent.toggleDiv('detailsDIVLink3340','DetailsImageLink3340')" />Details:
-							<div id="detailsDIVLink3340" class="DetailsDiv" >
-							<div class="ObjectDetailsNotes">A GM_Primitive may be in several GM_Complexes. See Clause 6.6.2.This association may not be navigable in this direction, depending on the application schema. &lt;br/&gt;GM_Primitive::complex [0..*] : Reference#lt;GM_Complex#gt;&lt;br/&gt;</div>
-
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../../../EA5/EA1/EA1/EA10/EA3026.html">«FeatureType» Building</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink3341" onclick="parent.toggleDiv('detailsDIVLink3341','DetailsImageLink3341')" />Details:
-							<div id="detailsDIVLink3341" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -376,39 +114,15 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3342" onclick="parent.toggleDiv('detailsDIVScenario3342','DetailsImageScenario3342')" />Details:
-						<div id="detailsDIVScenario3342" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3355" onclick="parent.toggleDiv('detailsDIVScenario3355','DetailsImageScenario3355')" />Details:
+						<div id="detailsDIVScenario3355" class="DetailsDiv" >
 						&nbsp;
 						</div>
 					</div>
 				</td>
 			</tr>
 	</table>
-</div>		<div class="ItemBody" id="ConstraintsTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-			  	<tr>
-					<td width="80%" class="TableHeading">Constraint</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Status</td>
-				</tr>
-				<tr>
-					<td width="80%" class="TableRow">dimension() >=  cotainedPrimitive.dimension()</td>
-					<td width="10%" class="TableRow">Invariant</td>
-					<td width="10%" class="TableRow">Approved</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints3343" onclick="parent.toggleDiv('detailsDIVConstraints3343','DetailsImageConstraints3343')" />Details:
-							<div id="detailsDIVConstraints3343" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -431,35 +145,28 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2501.html">«type» GM_Solid</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2503.html">«type» GM_SurfaceBoundary</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2496.html">«type» GM_Point</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2501.html">«type» GM_SolidBoundary</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA2494.html">«type» GM_OrientablePrimitive</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2489.html">«type» GM_CurveBoundary</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../../EA4/EA2/EA1542.html">Primitive</a></td>
-					<td width="10%" class="TableRow" valign="top">Interface</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2517.html">«type» GM_Object</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA2515.html">«Abstract» GM_Boundary</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Polygon::TIN</title>
+<title>Polygon::Triangle</title>
 <link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TIN", " : "))</script>  : Public abstract  Interface</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Triangle", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -51,19 +51,19 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">John R. Herring</td>
+			<td class="ObjectDetailsValue">Marko Kauppi</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue">1.0</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
-			<td class="ObjectDetailsValue">1.0</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
-			<td class="ObjectDetailsValue">Proposed</td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj04" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
@@ -87,20 +87,80 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{170C63BF-FA11-458e-8C2F-5849307E5080}</td>
+			<td class="ObjectDetailsValue">{3DA7B816-A5B8-4b13-A80F-7F1C9101905C}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1674.html">Figure 28 — Polyhedral surface</a>, <a href="../../EA14/EA2022.html">Fig 20: Geometry aggregations</a>, <a href="../../EA14/EA1982.html">Fig 02.02: Geometry Class Hieararchy</a>, <a href="../../EA14/EA1932.html">PolyhedralSurface</a>, <a href="../../EA14/EA1904.html">Fig 20: Surface</a>, <a href="../../EA14/EA1820.html">Context Diagram: PolyhedralSurface</a>, <a href="../../EA14/EA1882.html">Tin</a>, <a href="../../EA14/EA1858.html">Polygon</a>, <a href="../../EA14/EA1886.html">TriangulatedIrregularNetwork (Simplex)</a>, <a href="../../EA14/EA3/EA3/EA2124.html">Fig 16: Surfaces</a></td>
+			<td class="ObjectDetailsValue"><a href="EA1673.html">Figure 28 — Polyhedral surface</a>, <a href="../../EA14/EA2021.html">Fig 20: Geometry aggregations</a>, <a href="../../EA14/EA1981.html">Fig 02.02: Geometry Class Hieararchy</a>, <a href="../../EA14/EA1931.html">PolyhedralSurface</a>, <a href="../../EA14/EA1903.html">Fig 20: Surface</a>, <a href="../../EA14/EA1827.html">Context Diagram: Triangle</a>, <a href="../../EA14/EA1829.html">Context Diagram: TriangulatedSurface</a>, <a href="../../EA14/EA1819.html">Context Diagram: PolyhedralSurface</a>, <a href="../../EA14/EA1881.html">Tin</a>, <a href="../../EA14/EA1857.html">Polygon</a>, <a href="../../EA14/EA3/EA3/EA2123.html">Fig 16: Surfaces</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">A GM_Triangle is a planar GM_Polygon defined by 3 corners; that is, a GM_Triangle would be the result of a constructor of the form:&lt;br/&gt;GM_Polygon(GM_LineString(#lt;P1, P2, P3, P1#gt;))&lt;br/&gt;&lt;br/&gt;where P1, P2, and P3 are three GM_Positions. GM_Triangles have no holes. GM_Triangle shall be used to construct GM_TriangulatedSurfaces. &lt;br/&gt;&lt;br/&gt;NOTE The points in a triangle can be located in terms of their corner points by defining a set of barycentric coordinates, three nonnegative numbers c1, c2, and c3 such that c1+ c2 + c3 = 1.0. Then, each point P in the triangle can be expressed for some set of barycentric coordinates as:&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Attribute</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public <a href="../../EA1/EA3/EA1484.html">DirectPosition</a></i><br /><strong>&nbsp;&nbsp;dataPoint</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes2761')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes2761" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes2761_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td>Range:3 to 3</td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes2761_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>False</td>
+						</tr>
+							<tr id="DetailsImageAttributes2761_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						&nbsp;
+						
+				</td>
+			</tr>
+	</table>
+</div>
 <div class="ItemBody" id="OperationsTable">
 	<table border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -109,32 +169,118 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>TIN</strong>(					<a href="#" onclick="parent.toggleData('param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}" border="0" />data: <a href="EA1683.html">TriangleData</a></a>, 
+					<strong>Triangle</strong>(					<a href="#" onclick="parent.toggleData('param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}" border="0" />data: <a href="EA1682.html">TriangleData</a></a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}00" style="display: none;">
+						<tr id="param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}01" style="display: none;">
+						<tr id="param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}02" style="display: none;">
+						<tr id="param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{105AFA17-E9BF-49c7-BBF5-6A34A7225AC4}03" style="display: none;">
+						<tr id="param{9D51687F-A3F6-4e33-A8C4-36F9A0C64DE4}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
 					</table>
-):TIN
+):Triangle
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">
-					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2749" onclick="parent.toggleDiv('detailsDIVOperations2749','DetailsImageOperations2749')" />Details:
-						<div id="detailsDIVOperations2749" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2762" onclick="parent.toggleDiv('detailsDIVOperations2762','DetailsImageOperations2762')" />Details:
+						<div id="detailsDIVOperations2762" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;create&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Triangle</strong>(					<a href="#" onclick="parent.toggleData('param{C4E6948F-DEEA-4929-8C66-353AB07B440F}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{C4E6948F-DEEA-4929-8C66-353AB07B440F}" border="0" />boundary: <a href="../../EA3/EA1/EA1587.html">Line</a></a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{C4E6948F-DEEA-4929-8C66-353AB07B440F}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C4E6948F-DEEA-4929-8C66-353AB07B440F}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{C4E6948F-DEEA-4929-8C66-353AB07B440F}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{C4E6948F-DEEA-4929-8C66-353AB07B440F}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Triangle
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2763" onclick="parent.toggleDiv('detailsDIVOperations2763','DetailsImageOperations2763')" />Details:
+						<div id="detailsDIVOperations2763" class="DetailsDiv" >
+					<i>Sequential &lt;&lt;create&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>Triangle</strong>(					<a href="#" onclick="parent.toggleData('param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}')" style="text-decoration: none; color: #000000;"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}" border="0" />corners: DirectPosition</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{0EB53EB3-22DD-407b-B7FB-3E96865B99D9}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):Triangle
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations2764" onclick="parent.toggleDiv('detailsDIVOperations2764','DetailsImageOperations2764')" />Details:
+						<div id="detailsDIVOperations2764" class="DetailsDiv" >
 					<i>Sequential &lt;&lt;create&gt;&gt; </i>
 					<table>
 						<tr>
@@ -151,6 +297,167 @@ function nameClassifier(name, separator)
 			</tr>
 
 		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA1688.html">TriangulatedSurface</a><br />
+						Interface &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> segment<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> surface<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink2765" onclick="parent.toggleDiv('detailsDIVLink2765','DetailsImageLink2765')" />Details:
+							<div id="detailsDIVLink2765" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">persistence</td>
+				<td width="50%" class="TableRow" valign="top">persistent</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2766" onclick="parent.toggleDiv('detailsDIVScenario2766','DetailsImageScenario2766')" />Details:
+						<div id="detailsDIVScenario2766" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:ConstructorIs</td>
+				<td width="50%" class="TableRow" valign="top">public</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2767" onclick="parent.toggleDiv('detailsDIVScenario2767','DetailsImageScenario2767')" />Details:
+						<div id="detailsDIVScenario2767" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:DisableAutoSync</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2768" onclick="parent.toggleDiv('detailsDIVScenario2768','DetailsImageScenario2768')" />Details:
+						<div id="detailsDIVScenario2768" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:Final</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2769" onclick="parent.toggleDiv('detailsDIVScenario2769','DetailsImageScenario2769')" />Details:
+						<div id="detailsDIVScenario2769" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateCode</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2770" onclick="parent.toggleDiv('detailsDIVScenario2770','DetailsImageScenario2770')" />Details:
+						<div id="detailsDIVScenario2770" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateDefaultConstructor</td>
+				<td width="50%" class="TableRow" valign="top">True</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2771" onclick="parent.toggleDiv('detailsDIVScenario2771','DetailsImageScenario2771')" />Details:
+						<div id="detailsDIVScenario2771" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateFinalizer</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2772" onclick="parent.toggleDiv('detailsDIVScenario2772','DetailsImageScenario2772')" />Details:
+						<div id="detailsDIVScenario2772" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateInstanceInitializer</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2773" onclick="parent.toggleDiv('detailsDIVScenario2773','DetailsImageScenario2773')" />Details:
+						<div id="detailsDIVScenario2773" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:GenerateStaticInitializer</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2774" onclick="parent.toggleDiv('detailsDIVScenario2774','DetailsImageScenario2774')" />Details:
+						<div id="detailsDIVScenario2774" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">RationalRose$Java:Static</td>
+				<td width="50%" class="TableRow" valign="top">False</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2775" onclick="parent.toggleDiv('detailsDIVScenario2775','DetailsImageScenario2775')" />Details:
+						<div id="detailsDIVScenario2775" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
 </div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -174,9 +481,9 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA1689.html">TriangulatedSurface</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1684.html">Polygon</a></td>
 					<td width="10%" class="TableRow" valign="top">Interface</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">Tree</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
